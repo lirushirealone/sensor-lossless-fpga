@@ -1,0 +1,95 @@
+{
+  "schema": "source-release-checks-v1",
+  "date": "2026-10-31",
+  "formal_version": "unified-v1",
+  "software_tests": {
+    "passed": 19,
+    "scope": "Unchanged protocol, candidate selection and mocked driver lifecycle tests; not hardware performance evidence"
+  },
+  "native_c": {
+    "status": "SOURCE_NATIVE_C_PASS",
+    "records": 134,
+    "samples": 138156,
+    "pinned_zlib": "1.2.11",
+    "validation": "all supplied blocks: frozen consumer equality, winning encoded bytes, raw-fallback lengths, reference and hardware-oracle full decompression"
+  },
+  "rtl": {
+    "status": "SOURCE_RELEASE_RTL_PASS",
+    "trials": [
+      {
+        "seed": 0,
+        "lz_batches": 77,
+        "lz_blocks": 134,
+        "rice_frames": 467,
+        "passed": true
+      },
+      {
+        "seed": 1,
+        "lz_batches": 77,
+        "lz_blocks": 134,
+        "rice_frames": 467,
+        "passed": true
+      },
+      {
+        "seed": 17,
+        "lz_batches": 77,
+        "lz_blocks": 134,
+        "rice_frames": 467,
+        "passed": true
+      }
+    ]
+  },
+  "desktop": {
+    "status": "SOURCE_RELEASE_DESKTOP_PASS",
+    "examples_loaded": 3,
+    "blank_credentials": true,
+    "relative_history": true,
+    "decode_button": true,
+    "board_shutdown_invoked": false
+  },
+  "fresh_board": {
+    "status": "SOURCE_RELEASE_FRESH_BOARD_PASS",
+    "examples": [
+      {
+        "record": "power01",
+        "samples": 34560,
+        "sha256": "b03f64b55c2378b840d7fd2400a4196295b0f5a6bb03597ec8824c4ff591c42a",
+        "verified": true
+      },
+      {
+        "record": "appliances_energy",
+        "samples": 39470,
+        "sha256": "eb8ba79e5b28845810bf98e05788b722f9c2d9d02a32a901febf98067bf7b4ec",
+        "verified": true
+      },
+      {
+        "record": "bidmc01",
+        "samples": 240004,
+        "sha256": "ff4ea0ee8ee4c3f623a9cd792070ba4abbd59595e3a124ca51ec7fdd9ae78bf9",
+        "verified": true
+      }
+    ],
+    "real_samples": 314034,
+    "bit_sha256": "a0ee080269be259534432c3b14109c68dbf1d9f67a1f978f1d8414c7fc2d6ee0",
+    "independent_remote_directory": true,
+    "shutdown_tested": false
+  },
+  "history_preservation": {
+    "frozen_stages": 19,
+    "installed_files": 4759,
+    "passed": true
+  },
+  "fresh_full_vivado_build": false,
+  "source_rtl_and_build_tcl_match_formal": true,
+  "limitations": [
+    "Existing bit/HWH used for fresh board test; full implementation reports are historical.",
+    "The source GUI was checked with Qt offscreen plus the same real backend; not a new-computer bundled-runtime qualification.",
+    "No board shutdown test; source delivery does not complete video/report/authorization/photo submission."
+  ],
+  "packaging_corrections": [
+    "Windows simulator plusargs moved into vendor options file.",
+    "Token-only comparison accounts for full-deflater stored-block choice and raw fallback.",
+    "Compare invariant LZT1 member bytes and full Rice frame set; verify envelope counters independently.",
+    "Canonical JSON transport bytes fix Windows/Linux newline mismatch without bypassing hash checks."
+  ]
+}

@@ -1,0 +1,19 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Wed Oct 21 08:20:45 2026
+| Host         : redacted for source release
+| Command      : report_cdc -file implemented-cdc.rpt
+| Design       : compressor_system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock  Destination Clock  CDC Type                 Exceptions               Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  ------------  -----------------  -----------------------  -----------------------  ---------  ----  ------  -------  ------------  
+Info      clk_fpga_1    clk_fpga_0         No Common Primary Clock  Max Delay Datapath Only         30    30       0        0             0  
+Info      clk_fpga_0    clk_fpga_1         No Common Primary Clock  Max Delay Datapath Only         30    30       0        0             0  
+

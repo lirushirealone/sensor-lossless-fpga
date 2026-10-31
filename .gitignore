@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+known_hosts
+*.key
+results/
+runtime/results/
+build/output/
+*.rar
+*.zip
+*.tar
+*.part

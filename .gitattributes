@@ -1,0 +1,5 @@
+# Preserve exact audited bytes across platforms; manifest includes line endings.
+* -text
+*.npz binary
+*.ucf binary
+*.bit binary

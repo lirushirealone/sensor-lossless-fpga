@@ -1,0 +1,61 @@
+{
+  "tag": "v1.2.11",
+  "files": {
+    "README": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/README",
+      "sha256": "7960b6b1cc63e619abb77acaea5427159605afee8c8b362664f4effc7d7f7d15"
+    },
+    "zlib.h": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/zlib.h",
+      "sha256": "4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8"
+    },
+    "zconf.h": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/zconf.h",
+      "sha256": "9c0087f31cd45fe4bfa0ca79b51df2c69d67c44f2fbb2223d7cf9ab8d971c360"
+    },
+    "deflate.h": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/deflate.h",
+      "sha256": "0ca7fb0cf1dd63001c6e9e4ff93c8dbff2fe521199be51a4dda38a11b44919f6"
+    },
+    "zutil.h": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/zutil.h",
+      "sha256": "9a63f6690fac1620aa3cecee5752af618806da438a256b4a047fbcd289cac159"
+    },
+    "trees.h": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/trees.h",
+      "sha256": "bb0a9d3ca88ee00c81adb7c636e73b97085f6ef1b52d6d58edbe2b6dc3adeb4d"
+    },
+    "crc32.h": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/crc32.h",
+      "sha256": "407af59d0abfea84a6507c603eb29809411797f98249614fe76a661def783ce1"
+    },
+    "gzguts.h": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/gzguts.h",
+      "sha256": "1ef4741cf10441feeca5c8dde2b6c754f0cbd96fcae697d54a604757289a5e9b"
+    },
+    "deflate.c": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/deflate.c",
+      "sha256": "11fd6b0328b65c4ad4b5c204d892a97a9083628a7e77dc47836c8e0c799f8da0"
+    },
+    "trees.c": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/trees.c",
+      "sha256": "f2a5f949ea70dde7c23a54c793aeed630a03df4bb72417cd3aa008000c44699b"
+    },
+    "adler32.c": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/adler32.c",
+      "sha256": "d7f1b6e44fee20ab41cef1d650776a039a2348935eb96bcbd294a4096139be3a"
+    },
+    "crc32.c": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/crc32.c",
+      "sha256": "a04af273e83ecc351bf3794974ab2098d8d960df4044b7b44734c41443ee26d0"
+    },
+    "zutil.c": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/zutil.c",
+      "sha256": "f7fdc9ef326a2683eb33c794face54e83c751ec17f3d1ba581847a62af36ddcd"
+    },
+    "compress.c": {
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/compress.c",
+      "sha256": "5c11e1fc22e219cb986f6fa9e4ba939315227e84aef042737d38ec668b89b6d2"
+    }
+  }
+}

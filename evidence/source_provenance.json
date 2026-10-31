@@ -1,0 +1,671 @@
+{
+  "files": [
+    {
+      "file": "runtime/research/test_lz77_input.py",
+      "original_sha256": "005f7f0f624a1df2b6b3c885fbbf4b0855c883070a8e03f58ea147adeda5a9dc",
+      "submitted_sha256": "005f7f0f624a1df2b6b3c885fbbf4b0855c883070a8e03f58ea147adeda5a9dc",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_input.py",
+      "original_sha256": "2c31d47e8048ee5157b8c40fc0cbdb1825f49b25a4168dda876dd02d2088d305",
+      "submitted_sha256": "2c31d47e8048ee5157b8c40fc0cbdb1825f49b25a4168dda876dd02d2088d305",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/test_unified.py",
+      "original_sha256": "e7f96d42d2c08eaa424a68fccc059262a98cee5a4174a4380d0f8dcc1318a603",
+      "submitted_sha256": "e7f96d42d2c08eaa424a68fccc059262a98cee5a4174a4380d0f8dcc1318a603",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/unified_system.py",
+      "original_sha256": "07a39664404a17f79643bc1cbc830aa30ccbff8a8c61c51ea568ea8ff0bf5309",
+      "submitted_sha256": "07a39664404a17f79643bc1cbc830aa30ccbff8a8c61c51ea568ea8ff0bf5309",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/screen_block_coding.py",
+      "original_sha256": "820a444ce433af413c8d76c44c4dd89d30a5fcf61bdbbeeb8996deb69105ce8c",
+      "submitted_sha256": "820a444ce433af413c8d76c44c4dd89d30a5fcf61bdbbeeb8996deb69105ce8c",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/real_data_common.py",
+      "original_sha256": "1d88e7061671b61f8d147674c692b993f9c4d774c300584cf52c9657993e29c9",
+      "submitted_sha256": "1d88e7061671b61f8d147674c692b993f9c4d774c300584cf52c9657993e29c9",
+      "change": "none"
+    },
+    {
+      "file": "runtime/codec.py",
+      "original_sha256": "9edd3051886546fc65ba2a2fd4a91930b61eaf9ddfbb77a364bbf5cf28d34c46",
+      "submitted_sha256": "9edd3051886546fc65ba2a2fd4a91930b61eaf9ddfbb77a364bbf5cf28d34c46",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/unified_codec.py",
+      "original_sha256": "f034b8652746727f4720bfcc323eb69cb328c9e7d8600e35a448d81b83446117",
+      "submitted_sha256": "f034b8652746727f4720bfcc323eb69cb328c9e7d8600e35a448d81b83446117",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/unified_drivers.py",
+      "original_sha256": "19221bb415de99847038ae59f65068d8dd99bc604299aa3c3940628fe8367e2e",
+      "submitted_sha256": "19221bb415de99847038ae59f65068d8dd99bc604299aa3c3940628fe8367e2e",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/native_stream_driver.py",
+      "original_sha256": "9e85c2e3d08722505d57639a33f724d4ba440bc54e1857c414f0c121b0130f1b",
+      "submitted_sha256": "9e85c2e3d08722505d57639a33f724d4ba440bc54e1857c414f0c121b0130f1b",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/stream_codec.py",
+      "original_sha256": "1d806309d903563f5c80d29339f2b464bfc6947f65a9ea64e121c8ade0691484",
+      "submitted_sha256": "1d806309d903563f5c80d29339f2b464bfc6947f65a9ea64e121c8ade0691484",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/flac_hybrid_codec.py",
+      "original_sha256": "ff95f07e9bd833b60c2f00baf7a74628b236b734700aaa4b74aa2b2ec3acb490",
+      "submitted_sha256": "ff95f07e9bd833b60c2f00baf7a74628b236b734700aaa4b74aa2b2ec3acb490",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/hybrid_codec.py",
+      "original_sha256": "57a44d88cd3e5bcc2ab32a704f0385b161bcf15290e8f4d389bea25f1d107a00",
+      "submitted_sha256": "57a44d88cd3e5bcc2ab32a704f0385b161bcf15290e8f4d389bea25f1d107a00",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/flac_style_codec.py",
+      "original_sha256": "648797af1ac7018f2037d795a573bc54971f0d11fbb5e05eba97fe9f844e8c45",
+      "submitted_sha256": "648797af1ac7018f2037d795a573bc54971f0d11fbb5e05eba97fe9f844e8c45",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/flac_prediction_runtime.py",
+      "original_sha256": "13a4fb4f3fc650a47a03327d0d62c26a890d562adbbe34e2b1c4184ab94662cd",
+      "submitted_sha256": "13a4fb4f3fc650a47a03327d0d62c26a890d562adbbe34e2b1c4184ab94662cd",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/flac_cost_batch.py",
+      "original_sha256": "0106671b99318a71e20de54cbe8610c73ede9799b097b38d2cfd3e6ba6120bcf",
+      "submitted_sha256": "0106671b99318a71e20de54cbe8610c73ede9799b097b38d2cfd3e6ba6120bcf",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/flac_runtime_codec.py",
+      "original_sha256": "2f44852bd1e20d83e7cd4c80ca65229cd3a5794a5483d540e13e90136cfd0e55",
+      "submitted_sha256": "2f44852bd1e20d83e7cd4c80ca65229cd3a5794a5483d540e13e90136cfd0e55",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/hybrid_native_driver.py",
+      "original_sha256": "6eddfb9889316be5e3b9cd9bf517a18b5f8a025ee226f940efd03d1b779aa79a",
+      "submitted_sha256": "6eddfb9889316be5e3b9cd9bf517a18b5f8a025ee226f940efd03d1b779aa79a",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/dma_compressor.py",
+      "original_sha256": "f91e883d4ed0d7de14f76713855c3d9f4314cd4feb28940396bf5fa06f60a7d8",
+      "submitted_sha256": "f91e883d4ed0d7de14f76713855c3d9f4314cd4feb28940396bf5fa06f60a7d8",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_batch2_protocol.py",
+      "original_sha256": "ec157727d1fea52562475e653f7e22de301fe7124e239d3b5c39621c7e8a547b",
+      "submitted_sha256": "ec157727d1fea52562475e653f7e22de301fe7124e239d3b5c39621c7e8a547b",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_driver_support.py",
+      "original_sha256": "295f92882afdd51e847fc8dfd6e18036389ccb5e40b292714bb52131b1a1281f",
+      "submitted_sha256": "295f92882afdd51e847fc8dfd6e18036389ccb5e40b292714bb52131b1a1281f",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_protocol.py",
+      "original_sha256": "f5ee154d5ce1bcb675f0ffd79500c20aa4972ebae5ea6d4e5d2e74a537c44347",
+      "submitted_sha256": "f5ee154d5ce1bcb675f0ffd79500c20aa4972ebae5ea6d4e5d2e74a537c44347",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/lz77_batch2_driver.py",
+      "original_sha256": "42897bd2787b235d86874e8d70cd924246abe843464d4fe73db82282ccb63ca5",
+      "submitted_sha256": "42897bd2787b235d86874e8d70cd924246abe843464d4fe73db82282ccb63ca5",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/lz77_async_driver.py",
+      "original_sha256": "6c55e698221ad402a48f9ac0feadb0ed2d9eb54f9d77188174654c42fbd07dcb",
+      "submitted_sha256": "6c55e698221ad402a48f9ac0feadb0ed2d9eb54f9d77188174654c42fbd07dcb",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/lz77_snapshot_driver.py",
+      "original_sha256": "8783de5c84f630e88fbcde792c71c21aab441919e4cc7fcd44736dadecf610fe",
+      "submitted_sha256": "8783de5c84f630e88fbcde792c71c21aab441919e4cc7fcd44736dadecf610fe",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/lz77_result_driver.py",
+      "original_sha256": "56aec66c407fc99b695da5fdba923c8229ce350c1f4d79eaa962f47629fb922c",
+      "submitted_sha256": "56aec66c407fc99b695da5fdba923c8229ce350c1f4d79eaa962f47629fb922c",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/lz77_input_driver.py",
+      "original_sha256": "a40e6fcd7516152186c42c96eecd44278297066ff73dedc618c3bf1363833b7f",
+      "submitted_sha256": "a40e6fcd7516152186c42c96eecd44278297066ff73dedc618c3bf1363833b7f",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/lz77_driver.py",
+      "original_sha256": "aebab7c8ee49def13f716c4bf08e10ae0a061910dbfd7349ac0beb9af6b1aaf9",
+      "submitted_sha256": "aebab7c8ee49def13f716c4bf08e10ae0a061910dbfd7349ac0beb9af6b1aaf9",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/delta_frontend_driver.py",
+      "original_sha256": "a59d8b22d49727cd2ea5b528d1f3746607abfd9cb10a8dd89fe797156a50b903",
+      "submitted_sha256": "a59d8b22d49727cd2ea5b528d1f3746607abfd9cb10a8dd89fe797156a50b903",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/delta_frontend_protocol.py",
+      "original_sha256": "eff9059fa1d5a93b19dfa7920bb8457c429a804911db6e36d9db88a963168dab",
+      "submitted_sha256": "eff9059fa1d5a93b19dfa7920bb8457c429a804911db6e36d9db88a963168dab",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_entropy_runtime.py",
+      "original_sha256": "7b10dcda11b6eec75e02b2477c872e61039b20323751df765efe18bfddd3d740",
+      "submitted_sha256": "7b10dcda11b6eec75e02b2477c872e61039b20323751df765efe18bfddd3d740",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_packed_runtime.py",
+      "original_sha256": "4e884e9389da14907a9bc26e3a00936813f1fdea8b4ca13ef50a654f4668cd54",
+      "submitted_sha256": "4e884e9389da14907a9bc26e3a00936813f1fdea8b4ca13ef50a654f4668cd54",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_source.py",
+      "original_sha256": "83fa7a7d7facf9f365efbb937270f818ae2e44f745724eaa365f11bd57dece37",
+      "submitted_sha256": "83fa7a7d7facf9f365efbb937270f818ae2e44f745724eaa365f11bd57dece37",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/test_continuous_stream.py",
+      "original_sha256": "c3b55b41b81702b37f0d7413f3d9c8a277a55ca242ba49e28113a3c691a059f6",
+      "submitted_sha256": "c3b55b41b81702b37f0d7413f3d9c8a277a55ca242ba49e28113a3c691a059f6",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/compression_system.py",
+      "original_sha256": "dd16d9161f2c4c1f9d401960899d6fa9499cdecc03748bbd096d9174977f67a4",
+      "submitted_sha256": "dd16d9161f2c4c1f9d401960899d6fa9499cdecc03748bbd096d9174977f67a4",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/stream_source.py",
+      "original_sha256": "a2348c87d88979bb20e273227fb366178354d4ec57b4f18a05fc6255ad2dccca",
+      "submitted_sha256": "a2348c87d88979bb20e273227fb366178354d4ec57b4f18a05fc6255ad2dccca",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/test_lz77_pipeline.py",
+      "original_sha256": "dd376c113f836e4c67ecc68f347e7b9c4e5972ade4c877f4f3abf48247a07273",
+      "submitted_sha256": "dd376c113f836e4c67ecc68f347e7b9c4e5972ade4c877f4f3abf48247a07273",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_pipeline.py",
+      "original_sha256": "e0ae87e40b3390ec4ed102eb96ef5ea408ca146b0526e9f024c28d3f415e6d6b",
+      "submitted_sha256": "e0ae87e40b3390ec4ed102eb96ef5ea408ca146b0526e9f024c28d3f415e6d6b",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/test_lz77_batch2.py",
+      "original_sha256": "262d4963bb67f0607626c5cfe68ec3bf9f0b78674c5fffd24a7f4cbf24127c86",
+      "submitted_sha256": "262d4963bb67f0607626c5cfe68ec3bf9f0b78674c5fffd24a7f4cbf24127c86",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_batch2_pipeline.py",
+      "original_sha256": "505d3e5ff4c99768837d67a02e4c873c0b0c1803a05d980363a058355fea53d8",
+      "submitted_sha256": "505d3e5ff4c99768837d67a02e4c873c0b0c1803a05d980363a058355fea53d8",
+      "change": "none"
+    },
+    {
+      "file": "runtime/board/run_unified.py",
+      "original_sha256": "97fc9da9e6ccd2490a68c9e38796e03e84b5759cd8a866ccd312f8d959399016",
+      "submitted_sha256": "97fc9da9e6ccd2490a68c9e38796e03e84b5759cd8a866ccd312f8d959399016",
+      "change": "none"
+    },
+    {
+      "file": "runtime/contest_codec.py",
+      "original_sha256": "dffeae93efb23d919eeab7c2510073f791197ca6447f05629bb81cba71c77832",
+      "submitted_sha256": "dffeae93efb23d919eeab7c2510073f791197ca6447f05629bb81cba71c77832",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/batch_predict_native.c",
+      "original_sha256": "a1e37611b23225cdcbe5765fc191011a5853e9292b1c62dcc9aa55546397e534",
+      "submitted_sha256": "a1e37611b23225cdcbe5765fc191011a5853e9292b1c62dcc9aa55546397e534",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/bounded_zlib_native.c",
+      "original_sha256": "e7ae10d3b99cb6320fde95c7544c6692c17ba942d24037d6ce5cf541d513b2ef",
+      "submitted_sha256": "e7ae10d3b99cb6320fde95c7544c6692c17ba942d24037d6ce5cf541d513b2ef",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/flac_prediction_native.c",
+      "original_sha256": "510a31825e4d63937d95976ef414e0222c649920b14b4d4b048730c510a4feec",
+      "submitted_sha256": "510a31825e4d63937d95976ef414e0222c649920b14b4d4b048730c510a4feec",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/flac_runtime_native.c",
+      "original_sha256": "bf9cf7089aa3098f0dc5668acfb4a636ecf9723cae5f9074e321affdddf604ff",
+      "submitted_sha256": "bf9cf7089aa3098f0dc5668acfb4a636ecf9723cae5f9074e321affdddf604ff",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/fused_pack_native.c",
+      "original_sha256": "7010eca7bf6c31c33961feda8fde0411487895f03802c6f9e2fd0370dd10cd50",
+      "submitted_sha256": "7010eca7bf6c31c33961feda8fde0411487895f03802c6f9e2fd0370dd10cd50",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lpc_fit_native.c",
+      "original_sha256": "37904e216f8ce196de80c7423509235b6492b23ed18f7679cbec6d4529651457",
+      "submitted_sha256": "37904e216f8ce196de80c7423509235b6492b23ed18f7679cbec6d4529651457",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_driver_native.c",
+      "original_sha256": "8e9019b19a32367dc27ed1bec5f60a08fa3ebc4655b284d3e57748250b0baa5f",
+      "submitted_sha256": "8e9019b19a32367dc27ed1bec5f60a08fa3ebc4655b284d3e57748250b0baa5f",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_entropy_profile.c",
+      "original_sha256": "a631149dbd91d418a884632903c2da63745b4bb4a57ba368b9c61d5d35511ae6",
+      "submitted_sha256": "a631149dbd91d418a884632903c2da63745b4bb4a57ba368b9c61d5d35511ae6",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_native.c",
+      "original_sha256": "e53e79ba064aae85a2cd91c999cbadb121ba0deb4508db58e02bdb8fa7633a3e",
+      "submitted_sha256": "e53e79ba064aae85a2cd91c999cbadb121ba0deb4508db58e02bdb8fa7633a3e",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_pack_native.c",
+      "original_sha256": "2985f4e438838a2f379623dd8d19e5b4bcbe49d1038c0ad819023c6156b59ba9",
+      "submitted_sha256": "2985f4e438838a2f379623dd8d19e5b4bcbe49d1038c0ad819023c6156b59ba9",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/lz77_transport_native.c",
+      "original_sha256": "bfb707f5d4b7874a5b72078b6681f945f87ed496b252ad9714c7219197ac57e7",
+      "submitted_sha256": "bfb707f5d4b7874a5b72078b6681f945f87ed496b252ad9714c7219197ac57e7",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/predict_result_native.c",
+      "original_sha256": "45288686413831aa5a2b1c9a5e4c4baac6a71530086a611ee20480822a8f3449",
+      "submitted_sha256": "45288686413831aa5a2b1c9a5e4c4baac6a71530086a611ee20480822a8f3449",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/select_result_native.c",
+      "original_sha256": "9a1cdd576f1d64cb30a3853f59acebaccfbf3ec7066be6f3292dc01381226b02",
+      "submitted_sha256": "9a1cdd576f1d64cb30a3853f59acebaccfbf3ec7066be6f3292dc01381226b02",
+      "change": "none"
+    },
+    {
+      "file": "runtime/research/validation_native_decode.c",
+      "original_sha256": "f738c157cfb4b09664c71fde9910e5308bbffc67466abd19e80558168a29f2f2",
+      "submitted_sha256": "f738c157cfb4b09664c71fde9910e5308bbffc67466abd19e80558168a29f2f2",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/adler32.c",
+      "original_sha256": "d7f1b6e44fee20ab41cef1d650776a039a2348935eb96bcbd294a4096139be3a",
+      "submitted_sha256": "d7f1b6e44fee20ab41cef1d650776a039a2348935eb96bcbd294a4096139be3a",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/compress.c",
+      "original_sha256": "5c11e1fc22e219cb986f6fa9e4ba939315227e84aef042737d38ec668b89b6d2",
+      "submitted_sha256": "5c11e1fc22e219cb986f6fa9e4ba939315227e84aef042737d38ec668b89b6d2",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/crc32.c",
+      "original_sha256": "a04af273e83ecc351bf3794974ab2098d8d960df4044b7b44734c41443ee26d0",
+      "submitted_sha256": "a04af273e83ecc351bf3794974ab2098d8d960df4044b7b44734c41443ee26d0",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/crc32.h",
+      "original_sha256": "407af59d0abfea84a6507c603eb29809411797f98249614fe76a661def783ce1",
+      "submitted_sha256": "407af59d0abfea84a6507c603eb29809411797f98249614fe76a661def783ce1",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/deflate.c",
+      "original_sha256": "11fd6b0328b65c4ad4b5c204d892a97a9083628a7e77dc47836c8e0c799f8da0",
+      "submitted_sha256": "11fd6b0328b65c4ad4b5c204d892a97a9083628a7e77dc47836c8e0c799f8da0",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/deflate.h",
+      "original_sha256": "0ca7fb0cf1dd63001c6e9e4ff93c8dbff2fe521199be51a4dda38a11b44919f6",
+      "submitted_sha256": "0ca7fb0cf1dd63001c6e9e4ff93c8dbff2fe521199be51a4dda38a11b44919f6",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/gzguts.h",
+      "original_sha256": "1ef4741cf10441feeca5c8dde2b6c754f0cbd96fcae697d54a604757289a5e9b",
+      "submitted_sha256": "1ef4741cf10441feeca5c8dde2b6c754f0cbd96fcae697d54a604757289a5e9b",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/README",
+      "original_sha256": "7960b6b1cc63e619abb77acaea5427159605afee8c8b362664f4effc7d7f7d15",
+      "submitted_sha256": "7960b6b1cc63e619abb77acaea5427159605afee8c8b362664f4effc7d7f7d15",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/source-manifest.json",
+      "original_sha256": "e83a5df7ff1ad03275f584ba4ba9bfa68f79420438334e5f1b6241859525fe83",
+      "submitted_sha256": "e83a5df7ff1ad03275f584ba4ba9bfa68f79420438334e5f1b6241859525fe83",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/trees.c",
+      "original_sha256": "f2a5f949ea70dde7c23a54c793aeed630a03df4bb72417cd3aa008000c44699b",
+      "submitted_sha256": "f2a5f949ea70dde7c23a54c793aeed630a03df4bb72417cd3aa008000c44699b",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/trees.h",
+      "original_sha256": "bb0a9d3ca88ee00c81adb7c636e73b97085f6ef1b52d6d58edbe2b6dc3adeb4d",
+      "submitted_sha256": "bb0a9d3ca88ee00c81adb7c636e73b97085f6ef1b52d6d58edbe2b6dc3adeb4d",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/zconf.h",
+      "original_sha256": "9c0087f31cd45fe4bfa0ca79b51df2c69d67c44f2fbb2223d7cf9ab8d971c360",
+      "submitted_sha256": "9c0087f31cd45fe4bfa0ca79b51df2c69d67c44f2fbb2223d7cf9ab8d971c360",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/zlib.h",
+      "original_sha256": "4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8",
+      "submitted_sha256": "4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/zutil.c",
+      "original_sha256": "f7fdc9ef326a2683eb33c794face54e83c751ec17f3d1ba581847a62af36ddcd",
+      "submitted_sha256": "f7fdc9ef326a2683eb33c794face54e83c751ec17f3d1ba581847a62af36ddcd",
+      "change": "none"
+    },
+    {
+      "file": "runtime/third_party/zlib-1.2.11/zutil.h",
+      "original_sha256": "9a63f6690fac1620aa3cecee5752af618806da438a256b4a047fbcd289cac159",
+      "submitted_sha256": "9a63f6690fac1620aa3cecee5752af618806da438a256b4a047fbcd289cac159",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v1/__init__.py",
+      "original_sha256": "c5a7bf6cd02c864df0291bbe1220ab0a25587c4612e988d4e1319639ab84cc71",
+      "submitted_sha256": "c5a7bf6cd02c864df0291bbe1220ab0a25587c4612e988d4e1319639ab84cc71",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v1/backend.py",
+      "original_sha256": "bfc6a69b9b842e9d9f7a0eacddc0264add35c48238f8976f34fb61acd5cc9bd4",
+      "submitted_sha256": "f4b4fbf646e13728de16741d9baa715a8edb16e53d2f018c138b41a3284f213c",
+      "change": "Packaging adapter: remove preset password / bind helper to isolated runtime root; codec/RTL unchanged"
+    },
+    {
+      "file": "runtime/desktop_gui_v1/board_job.py",
+      "original_sha256": "b99932d52f784e544f11f1c98ddea12b572179b079eacbf599d0ef6f79812c17",
+      "submitted_sha256": "b99932d52f784e544f11f1c98ddea12b572179b079eacbf599d0ef6f79812c17",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v1/dataio.py",
+      "original_sha256": "27e16186d1b09036e595851e8194073c277383afd823659e9d23ae92c75260bd",
+      "submitted_sha256": "27e16186d1b09036e595851e8194073c277383afd823659e9d23ae92c75260bd",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v1/preflight.py",
+      "original_sha256": "5543f0ff926fb8b0d27da1fcd06ee2005c6633606e18142d54b829c9f2176809",
+      "submitted_sha256": "5543f0ff926fb8b0d27da1fcd06ee2005c6633606e18142d54b829c9f2176809",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v2/__init__.py",
+      "original_sha256": "4cbc67b3a8e78bf8e1432a7217ebf0a11f9cb9aa49312576c5b10daa13200899",
+      "submitted_sha256": "4cbc67b3a8e78bf8e1432a7217ebf0a11f9cb9aa49312576c5b10daa13200899",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v2/backend.py",
+      "original_sha256": "d19f608bd692f11bff307305f1aa1ab9c4bd46e057ac1b305202ec29d632a837",
+      "submitted_sha256": "83b625ef3df8d9e46804afa8d67bfb6354477cfd44ba602e9b79e41d5bc55b34",
+      "change": "Packaging adapter: remove preset password / bind helper to isolated runtime root; codec/RTL unchanged"
+    },
+    {
+      "file": "runtime/desktop_gui_v2/dataio.py",
+      "original_sha256": "fac6107bf30d102b32494089b9d6d9cd12df2d89707a25993dc7424e7bebfc8f",
+      "submitted_sha256": "fac6107bf30d102b32494089b9d6d9cd12df2d89707a25993dc7424e7bebfc8f",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v2/library.py",
+      "original_sha256": "d096d27ca78cdb583c2875506ca680a3a175adecd68a26a7245d0d59f83e5fd6",
+      "submitted_sha256": "d096d27ca78cdb583c2875506ca680a3a175adecd68a26a7245d0d59f83e5fd6",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v2/poweroff_board.py",
+      "original_sha256": "eb4fe82ff6193061b94ce7ceaa54a50ce76fdf38d83d3e00358a4185b5b426cc",
+      "submitted_sha256": "eb4fe82ff6193061b94ce7ceaa54a50ce76fdf38d83d3e00358a4185b5b426cc",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v3/__init__.py",
+      "original_sha256": "3cb0e075075b1f558edf70de464321232599ca95b63c630f9b07660f20d8dc65",
+      "submitted_sha256": "3cb0e075075b1f558edf70de464321232599ca95b63c630f9b07660f20d8dc65",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v3/backend.py",
+      "original_sha256": "38db65a09b15c2889b5022685cc0cdb907bfe080dfe356be70d48dfdd8fd6f4b",
+      "submitted_sha256": "38db65a09b15c2889b5022685cc0cdb907bfe080dfe356be70d48dfdd8fd6f4b",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v3/dataio.py",
+      "original_sha256": "f349f9c7bd18c18624e49bc7649f644ea5a7d7225a0716ffcc5fe8c652f25e2b",
+      "submitted_sha256": "f349f9c7bd18c18624e49bc7649f644ea5a7d7225a0716ffcc5fe8c652f25e2b",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v3/history_store.py",
+      "original_sha256": "767537a7bba4b78795c23ad2a9af3c6d1c1f0d78474d7b901c2869625e8015ee",
+      "submitted_sha256": "767537a7bba4b78795c23ad2a9af3c6d1c1f0d78474d7b901c2869625e8015ee",
+      "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui_v3/main.py",
+      "original_sha256": "1926d746284342188248a2e8ff8e893f5ec02eea48afc6d5489c19b34def6416",
+      "submitted_sha256": "4e6f9752b47498c1381bdbf200cb5b2ef4ad6016db5bc9b4223d44d971b41dcd",
+      "change": "Packaging adapter: remove preset password / bind helper to isolated runtime root; codec/RTL unchanged"
+    },
+    {
+      "file": "runtime/board/gui_preflight.py",
+      "original_sha256": "5543f0ff926fb8b0d27da1fcd06ee2005c6633606e18142d54b829c9f2176809",
+      "submitted_sha256": "5543f0ff926fb8b0d27da1fcd06ee2005c6633606e18142d54b829c9f2176809",
+      "change": "none"
+    },
+    {
+      "file": "src/rtl/delta_checksum_frontend.sv",
+      "original_sha256": "aa3175d189c36578ddd927686d80da76085aaa081332768279d4bb237941ffcf",
+      "submitted_sha256": "aa3175d189c36578ddd927686d80da76085aaa081332768279d4bb237941ffcf",
+      "change": "none"
+    },
+    {
+      "file": "src/rtl/lz77_matcher.sv",
+      "original_sha256": "3b283f7ebd8e70a1716812ad786aa7e2bf6e2743e654ef849470c9ab108ae87b",
+      "submitted_sha256": "3b283f7ebd8e70a1716812ad786aa7e2bf6e2743e654ef849470c9ab108ae87b",
+      "change": "none"
+    },
+    {
+      "file": "src/rtl/lz77_block_axis.sv",
+      "original_sha256": "b73b07d5b7e4cad5a266e53ad9ada1a65c662241f7d969f344f1badc828eeb9f",
+      "submitted_sha256": "b73b07d5b7e4cad5a266e53ad9ada1a65c662241f7d969f344f1badc828eeb9f",
+      "change": "none"
+    },
+    {
+      "file": "src/rtl/lz77_axis.sv",
+      "original_sha256": "f0db6ccc63893c605726c9203c9630d355c66d2813b9c7c2f9ba85cc733ee301",
+      "submitted_sha256": "f0db6ccc63893c605726c9203c9630d355c66d2813b9c7c2f9ba85cc733ee301",
+      "change": "none"
+    },
+    {
+      "file": "src/rtl/sensor_compressor_1024.sv",
+      "original_sha256": "4ccbd9bb0030812d13c820d9f03836c85057a51b9974dc4bfd6b90e30738d0ab",
+      "submitted_sha256": "4ccbd9bb0030812d13c820d9f03836c85057a51b9974dc4bfd6b90e30738d0ab",
+      "change": "none"
+    },
+    {
+      "file": "src/rtl/parallel_axis_1024.sv",
+      "original_sha256": "5d4eead157b007630fde0b5b47899f69b6d4d8fe92a061425943e520f53a8841",
+      "submitted_sha256": "5d4eead157b007630fde0b5b47899f69b6d4d8fe92a061425943e520f53a8841",
+      "change": "none"
+    },
+    {
+      "file": "build/ps7_preset.tcl",
+      "original_sha256": "b6cf7a53e477d0174d436244464c57ba888b5b845a49b614283626bce60d8c02",
+      "submitted_sha256": "b6cf7a53e477d0174d436244464c57ba888b5b845a49b614283626bce60d8c02",
+      "change": "none"
+    },
+    {
+      "file": "build/build_overlay.tcl",
+      "original_sha256": "9b04108dd3441a7e1465ac374141f6c1390825d89084abc76c377c42b3ebdbf5",
+      "submitted_sha256": "9b04108dd3441a7e1465ac374141f6c1390825d89084abc76c377c42b3ebdbf5",
+      "change": "none"
+    },
+    {
+      "file": "sim/tb_unified.sv",
+      "original_sha256": "18be17bfcaa99866d4a3ae05ddba9714fdfdd40962d54356a3a390433558774d",
+      "submitted_sha256": "18be17bfcaa99866d4a3ae05ddba9714fdfdd40962d54356a3a390433558774d",
+      "change": "none"
+    },
+    {
+      "file": "sim/tb_unified_lz.sv",
+      "original_sha256": "d7fed344c1d04be7070aca948218fe8e0445aa3d843366735420137d9261ddc8",
+      "submitted_sha256": "d7fed344c1d04be7070aca948218fe8e0445aa3d843366735420137d9261ddc8",
+      "change": "none"
+    },
+    {
+      "file": "sim/tb_unified_rice.sv",
+      "original_sha256": "7107405e7ef66b0a2da388010acaf421139d4188d84bd9165fb02ab769e1841a",
+      "submitted_sha256": "7107405e7ef66b0a2da388010acaf421139d4188d84bd9165fb02ab769e1841a",
+      "change": "none"
+    },
+    {
+      "file": "sim/run.tcl",
+      "original_sha256": "6218ffa4f2392f3c61113605d4ab2cd023186e11f1da826b920e510a9a797efb",
+      "submitted_sha256": "6218ffa4f2392f3c61113605d4ab2cd023186e11f1da826b920e510a9a797efb",
+      "change": "none"
+    },
+    {
+      "file": "runtime/unified-overlay/compressor.bit",
+      "original_sha256": "a0ee080269be259534432c3b14109c68dbf1d9f67a1f978f1d8414c7fc2d6ee0",
+      "submitted_sha256": "a0ee080269be259534432c3b14109c68dbf1d9f67a1f978f1d8414c7fc2d6ee0",
+      "change": "none"
+    },
+    {
+      "file": "runtime/unified-overlay/compressor.hwh",
+      "original_sha256": "1222834906428109199102f6f85ffcc330ef434af7fecbcb7de8b705caeb7ead",
+      "submitted_sha256": "1222834906428109199102f6f85ffcc330ef434af7fecbcb7de8b705caeb7ead",
+      "change": "none"
+    },
+    {
+      "file": "evidence/hardware/implemented-cdc.rpt",
+      "original_sha256": "d9ca4ed374b4b923b543673b0cecccc1108b9e0e325c5b6aec0cf020a78a376b",
+      "submitted_sha256": "c83d42179f83a492700afedd9f26732b9bc4372c577f769076fe830f4e169ae3",
+      "change": "Host-machine label redacted; results unchanged"
+    },
+    {
+      "file": "evidence/hardware/implemented-drc.rpt",
+      "original_sha256": "9352e52d49257fc64e9c84d85fc5f8bc3b61ddc35fff86e69cfddca1832d5c14",
+      "submitted_sha256": "337409c3926aa6929fab654c09b437c7d6caeda6a88713afb08ea27805cca869",
+      "change": "Host-machine label redacted; results unchanged"
+    },
+    {
+      "file": "evidence/hardware/implemented-timing.rpt",
+      "original_sha256": "3ac5a945e3643eb197aae33c66c0d529b5b263f22edc322162e7b7f9451ed1b6",
+      "submitted_sha256": "68930a7d7067f07b845d3eafe9085c7ca008d5c741f34370ef41a8e6c495e808",
+      "change": "Host-machine label redacted; results unchanged"
+    },
+    {
+      "file": "evidence/hardware/implemented-utilization.rpt",
+      "original_sha256": "0c6a84883dead4a9a7ec5b2bec70f80099610090a0ffd8b46f8faadde91bebc7",
+      "submitted_sha256": "a368030614449f9663105aa8e0486f9e24748a1529525556879ae8f3595af3a4",
+      "change": "Host-machine label redacted; results unchanged"
+    },
+    {
+      "file": "data/examples/power01.npz",
+      "original_sha256": "9e5e6efe03514cebdfce13524effdecc83c9597aadbc95f10b23636098bc5e0a",
+      "submitted_sha256": "9e5e6efe03514cebdfce13524effdecc83c9597aadbc95f10b23636098bc5e0a",
+      "change": "none"
+    },
+    {
+      "file": "data/examples/appliances_energy.npz",
+      "original_sha256": "702bd55c4a99a9d02367d72c34e39d4895a7f56f2fa7da004438363b9b85dc7f",
+      "submitted_sha256": "702bd55c4a99a9d02367d72c34e39d4895a7f56f2fa7da004438363b9b85dc7f",
+      "change": "none"
+    },
+    {
+      "file": "data/examples/bidmc01.npz",
+      "original_sha256": "1ce8b334e166dbf2b56ffcf1a1709cf0b7df7f0c8e1a82acfa8cbaf2a18aa909",
+      "submitted_sha256": "1ce8b334e166dbf2b56ffcf1a1709cf0b7df7f0c8e1a82acfa8cbaf2a18aa909",
+      "change": "none"
+    },
+    {
+      "file": "data/reference/power01.ucf",
+      "original_sha256": "b03f64b55c2378b840d7fd2400a4196295b0f5a6bb03597ec8824c4ff591c42a",
+      "submitted_sha256": "b03f64b55c2378b840d7fd2400a4196295b0f5a6bb03597ec8824c4ff591c42a",
+      "change": "none"
+    },
+    {
+      "file": "data/reference/appliances_energy.ucf",
+      "original_sha256": "eb8ba79e5b28845810bf98e05788b722f9c2d9d02a32a901febf98067bf7b4ec",
+      "submitted_sha256": "eb8ba79e5b28845810bf98e05788b722f9c2d9d02a32a901febf98067bf7b4ec",
+      "change": "none"
+    },
+    {
+      "file": "data/reference/bidmc01.ucf",
+      "original_sha256": "ff4ea0ee8ee4c3f623a9cd792070ba4abbd59595e3a124ca51ec7fdd9ae78bf9",
+      "submitted_sha256": "ff4ea0ee8ee4c3f623a9cd792070ba4abbd59595e3a124ca51ec7fdd9ae78bf9",
+      "change": "none"
+    }
+  ],
+  "scope": "Only listed source transformations; prior production files untouched."
+}

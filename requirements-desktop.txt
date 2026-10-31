@@ -1,0 +1,4 @@
+numpy==2.3.5
+PySide6-Essentials==6.10.2
+pyqtgraph==0.14.0
+paramiko==3.5.1

@@ -1,0 +1,87 @@
+{
+  "files": [
+    {
+      "file": "power01.npz",
+      "name": "power01",
+      "kind": "公开真实数据",
+      "category": "示例",
+      "sha256": "9e5e6efe03514cebdfce13524effdecc83c9597aadbc95f10b23636098bc5e0a",
+      "counts": {
+        "0": 8640,
+        "1": 8640,
+        "2": 8640,
+        "3": 8640
+      },
+      "raw_sample_bytes": 69120,
+      "sample_rate_hz": 0.016666666666666666,
+      "channel_sha256": {
+        "0": "29d21acc83e439a5c0b009e974f740cdf3cfd74322937b680df3e0fdb82f2eec",
+        "1": "9f5a2ec2961b4aef0502568540f2119d2a30e0802bc86d0fe67617d748c775f4",
+        "2": "462fd2e71c7ca98975a622e5dacea6d60fdd9211c8b708e3e963cdb5e7a65832",
+        "3": "874cb9acaffe1e2e993d08c33e208cc1638444327ed81ba18fe9f5de9f5dabd5"
+      },
+      "source": {
+        "dataset": "UCI Individual Household Electric Power Consumption",
+        "source_url": "https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption",
+        "license": "CC BY 4.0; credit Georges Hebrail and Alice Berard",
+        "original_reference": "data/household-power-v1",
+        "original_record": "power01",
+        "representation": "Exact decimal values multiplied by fixed per-channel scales; preserve numeric values exactly, not CSV spelling. Missing mapped to reserved -32768. No filtering, interpolation, clipping, deletion or requantization. Raw baseline is this int16 representation, not original CSV size."
+      }
+    },
+    {
+      "file": "appliances_energy.npz",
+      "name": "appliances_energy",
+      "kind": "公开真实数据",
+      "category": "示例",
+      "sha256": "702bd55c4a99a9d02367d72c34e39d4895a7f56f2fa7da004438363b9b85dc7f",
+      "counts": {
+        "0": 19735,
+        "1": 19735
+      },
+      "raw_sample_bytes": 78940,
+      "sample_rate_hz": 0.0016666666666666668,
+      "channel_sha256": {
+        "0": "910f77fd9fbcdbe25149d23ba6427ee4cfdbf6d1e36c58dd4cec2c7db242eeb8",
+        "1": "c7f8b1ce81d400de331b663bcd06f632d2c28405163036dd84da95ef01fa11f6"
+      },
+      "source": {
+        "dataset": "UCI Appliances Energy Prediction",
+        "source_url": "https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction",
+        "license": "CC BY 4.0",
+        "original_reference": "data/appliances-energy-v1",
+        "original_record": "appliances_energy",
+        "representation": "Exact published integer Wh values, scale1, little-endian int16; no rounding, normalization, clipping, interpolation, deletion or precision reduction. Numeric values preserved, not CSV spelling."
+      }
+    },
+    {
+      "file": "bidmc01.npz",
+      "name": "bidmc01",
+      "kind": "公开真实数据",
+      "category": "示例",
+      "sha256": "1ce8b334e166dbf2b56ffcf1a1709cf0b7df7f0c8e1a82acfa8cbaf2a18aa909",
+      "counts": {
+        "0": 60001,
+        "1": 60001,
+        "2": 60001,
+        "3": 60001
+      },
+      "raw_sample_bytes": 480008,
+      "sample_rate_hz": 125.0,
+      "channel_sha256": {
+        "0": "f70d63e8cb5cbd85b913dd7a4fae4a15fbc28f360d425195c0857975dc6dd38b",
+        "1": "9718cb016ba5ff95962054cab8674ad8ecefdb7219ca8dbbac8ee82524cb61bd",
+        "2": "d772c904213937a75189159156ccefd8eaf7d2efa232ba9441a85b0ccebf3ae6",
+        "3": "a9889569ab41e6781def2c51b491f9283c3ae088956129b1fcf7f87c2ca0d078"
+      },
+      "source": {
+        "dataset": "BIDMC PPG and Respiration Dataset",
+        "source_url": "https://physionet.org/content/bidmc/1.0.0/",
+        "license": "Open Data Commons Attribution License v1.0 (current dataset page)",
+        "original_reference": "data/bidmc-full-v1",
+        "original_record": "bidmc01",
+        "representation": "Exact published WFDB format-16 digital samples; no filtering, scaling, clipping, normalization or requantization. Preserve -32768 missing-data sentinel as an integer."
+      }
+    }
+  ]
+}
