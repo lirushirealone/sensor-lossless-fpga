@@ -8,6 +8,8 @@
   },
   "native_c": {
     "status": "SOURCE_NATIVE_C_PASS",
+    "native_helpers": 4,
+    "optional_timing_profiler_tested": false,
     "records": 134,
     "samples": 138156,
     "pinned_zlib": "1.2.11",
@@ -90,6 +92,7 @@
     "Windows simulator plusargs moved into vendor options file.",
     "Token-only comparison accounts for full-deflater stored-block choice and raw fallback.",
     "Compare invariant LZT1 member bytes and full Rice frame set; verify envelope counters independently.",
-    "Canonical JSON transport bytes fix Windows/Linux newline mismatch without bypassing hash checks."
+    "Canonical JSON transport bytes fix Windows/Linux newline mismatch without bypassing hash checks.",
+    "Five Windows compiler launch sites use ASCII relative arguments; C and GCC branches are unchanged. Four Windows runtime helpers are tested; the optional timing profiler remains Linux-only."
   ]
 }

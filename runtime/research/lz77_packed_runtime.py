@@ -30,11 +30,8 @@ extern int lz_capture_tally(deflate_state*,unsigned,unsigned);
     sources=[source,adapted]+[vendor/n for n in ('trees.c','adler32.c','crc32.c','zutil.c','compress.c')]
     if not binary.exists():
         if os.name=='nt':
-            found=sorted(Path('C:/Program Files/Microsoft Visual Studio').glob('*/Community/VC/Auxiliary/Build/vcvars64.bat'))
-            if not found:raise RuntimeError('MSVC unavailable')
-            script=folder/'build.bat';script.write_text('@echo off\ncall "'+str(found[-1])+'" >nul\nif errorlevel 1 exit /b 1\ncl /nologo /O2 /LD /TC /D_CRT_SECURE_NO_WARNINGS /I"'+str(vendor)+'" '+
-                ' '.join('"'+str(p)+'"' for p in sources)+' /link /OUT:"'+str(binary)+'"\n')
-            result=subprocess.run(['cmd','/d','/c',str(script)],cwd=folder,capture_output=True,text=True,errors='replace')
+            from windows_native_build import run_msvc
+            result=run_msvc(folder,sources,binary,includes=[vendor],crt=True)
         else:
             compiler=shutil.which('gcc')
             if not compiler:raise RuntimeError('gcc unavailable')

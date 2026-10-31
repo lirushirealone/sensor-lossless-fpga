@@ -33,12 +33,15 @@ def configure(root):
             self.notify('phase',text='校验源码包并准备独立板端目录')
             sftp=client.open_sftp();home=sftp.normalize('.')
             release=posixpath.join(home,'projects/sensor_lossless_fpga',hashlib.sha256(manifest).hexdigest()[:16])
+            checked_directories=set()
             def mkdir(path):
                 current='/'
                 for part in path.strip('/').split('/'):
                     current=posixpath.join(current,part)
+                    if current in checked_directories:continue
                     try:sftp.stat(current)
                     except FileNotFoundError:sftp.mkdir(current)
+                    checked_directories.add(current)
             try:
                 # Share the existing workbench's board ownership lock, including
                 # on a fresh standard xilinx-user PYNQ image.

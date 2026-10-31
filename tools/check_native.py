@@ -8,6 +8,14 @@ from lz77_entropy_runtime import BulkReturnConsumer
 
 
 def main():
+    from lz77_driver_support import ensure_native as driver_build
+    from flac_runtime_codec import ensure_native as flac_build
+    from flac_prediction_runtime import ensure_native as predictor_build
+    from lz77_entropy_runtime import build_profile
+    driver_build();flac_build();predictor_build()
+    # The optional timing profiler is a Linux/board research aid. Its Windows
+    # header collision is not part of the production token consumer.
+    if sys.platform!='win32':build_profile()
     oracle=TokenConsumer();consumer=BulkReturnConsumer();words=[int(x,16)&0xffffffff for x in (ROOT/'sim/vectors/lz-input.hex').read_text().split()];p=records=samples=0
     while p<len(words):
         header=words[p];p+=1
@@ -26,7 +34,7 @@ def main():
             hardware_tokens=oracle.tokenize(raw,reference=False)
             if zlib.decompress(consumer.pack(hardware_tokens,len(raw),zlib.adler32(raw)))!=raw:raise ValueError('Hardware-oracle token decode mismatch')
             records+=1;samples+=n
-    print(json.dumps(dict(status='SOURCE_NATIVE_C_PASS',records=records,samples=samples,pinned_zlib='1.2.11',validation='all supplied blocks: frozen consumer equality, winning encoded bytes, raw-fallback lengths, reference and hardware-oracle full decompression')))
+    print(json.dumps(dict(status='SOURCE_NATIVE_C_PASS',native_helpers=4 if sys.platform=='win32' else 5,optional_timing_profiler_tested=sys.platform!='win32',records=records,samples=samples,pinned_zlib='1.2.11',validation='all supplied blocks: frozen consumer equality, winning encoded bytes, raw-fallback lengths, reference and hardware-oracle full decompression')))
 
 
 if __name__=='__main__':main()

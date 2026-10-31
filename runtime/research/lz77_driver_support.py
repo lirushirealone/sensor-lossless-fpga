@@ -21,10 +21,8 @@ def ensure_native():
     binary=folder/('stats_'+key[:16]+('.dll' if os.name=='nt' else '.so'))
     if not binary.exists():
         if os.name=='nt':
-            found=sorted(Path('C:/Program Files/Microsoft Visual Studio').glob('*/Community/VC/Auxiliary/Build/vcvars64.bat'))
-            if not found:raise RuntimeError('MSVC unavailable')
-            script=folder/'build.bat';script.write_text('@echo off\ncall "'+str(found[-1])+'" >nul\nif errorlevel 1 exit /b 1\ncl /nologo /O2 /LD /TC "'+str(source)+'" /link /OUT:"'+str(binary)+'"\n')
-            result=subprocess.run(['cmd','/d','/c',str(script)],cwd=folder,capture_output=True,text=True,errors='replace')
+            from windows_native_build import run_msvc
+            result=run_msvc(folder,[source],binary)
         else:
             result=subprocess.run([shutil.which('gcc') or 'gcc','-O3','-std=c99','-fPIC','-shared',str(source),'-o',str(binary)],capture_output=True,text=True)
         (folder/'build.log').write_text(result.stdout+'\n'+result.stderr,encoding='utf-8')

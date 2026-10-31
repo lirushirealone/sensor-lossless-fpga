@@ -90,3 +90,5 @@ python build/run_build.py --vivado <vivado_executable>
 ## 本次源码整理验证（2026-10-31）
 
 19项软件测试、134个原生C测试块、三种背压种子的双时钟RTL回归通过；离屏界面导入和解压选择通过。独立板端目录重新实跑三组示例、全量核对314034点，压缩字节与冻结参考一致。未重新进行完整布局布线；未执行板卡关机。完整范围见evidence/release_checks.json。
+
+Windows原生检查编译四个运行辅助库；可选的entropy计时诊断器仅在Linux/板端测试，原诊断C的Windows头文件宏冲突尚未处理，不影响桌面界面或正式压缩。

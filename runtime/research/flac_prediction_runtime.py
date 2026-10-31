@@ -42,14 +42,8 @@ def ensure_native():
     compiler='cached'
     if not binary.exists():
         if os.name=='nt':
-            found=sorted(Path('C:/Program Files/Microsoft Visual Studio').glob('*/Community/VC/Auxiliary/Build/vcvars64.bat'))
-            if not found: raise RuntimeError('MSVC x64 compiler is unavailable')
-            compiler=str(found[-1])
-            build=directory/'build-prediction.bat'
-            build.write_text('@echo off\ncall "'+compiler+'" >nul\nif errorlevel 1 exit /b 1\n'
-                'cl /nologo /O2 /LD /TC "'+str(source)+'" /Fo:"'+str(directory/'prediction.obj')+'" '
-                '/link /OUT:"'+str(binary)+'"\n',encoding='utf-8')
-            completed=subprocess.run(['cmd','/d','/c',str(build)],cwd=directory,capture_output=True,text=True)
+            from windows_native_build import run_msvc
+            compiler='MSVC Community';completed=run_msvc(directory,[source],binary,object_name='prediction.obj')
         else:
             compiler=shutil.which('gcc')
             if not compiler: raise RuntimeError('gcc is unavailable')

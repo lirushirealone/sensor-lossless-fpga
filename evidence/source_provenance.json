@@ -87,8 +87,8 @@
     {
       "file": "runtime/research/flac_prediction_runtime.py",
       "original_sha256": "13a4fb4f3fc650a47a03327d0d62c26a890d562adbbe34e2b1c4184ab94662cd",
-      "submitted_sha256": "13a4fb4f3fc650a47a03327d0d62c26a890d562adbbe34e2b1c4184ab94662cd",
-      "change": "none"
+      "submitted_sha256": "f64a8fc658751eefda5b2e566755e52072f3a62d840eb9c268d72ca4d75fc1b3",
+      "change": "Release packaging: Windows MSVC invocation uses relative ASCII paths; C code and Linux/GCC branch unchanged."
     },
     {
       "file": "runtime/research/flac_cost_batch.py",
@@ -99,8 +99,8 @@
     {
       "file": "runtime/research/flac_runtime_codec.py",
       "original_sha256": "2f44852bd1e20d83e7cd4c80ca65229cd3a5794a5483d540e13e90136cfd0e55",
-      "submitted_sha256": "2f44852bd1e20d83e7cd4c80ca65229cd3a5794a5483d540e13e90136cfd0e55",
-      "change": "none"
+      "submitted_sha256": "bdb3192d8bffd741810c2a129daa860635f63e9f26ac579fc1a955c2c3f46342",
+      "change": "Release packaging: Windows MSVC invocation uses relative ASCII paths; C code and Linux/GCC branch unchanged."
     },
     {
       "file": "runtime/board/hybrid_native_driver.py",
@@ -123,8 +123,8 @@
     {
       "file": "runtime/research/lz77_driver_support.py",
       "original_sha256": "295f92882afdd51e847fc8dfd6e18036389ccb5e40b292714bb52131b1a1281f",
-      "submitted_sha256": "295f92882afdd51e847fc8dfd6e18036389ccb5e40b292714bb52131b1a1281f",
-      "change": "none"
+      "submitted_sha256": "63dd972d3f89dd3c9f04f71ff3eca7cba82f388ec775647b74e4656c8f6942bb",
+      "change": "Release packaging: Windows MSVC invocation uses relative ASCII paths; C code and Linux/GCC branch unchanged."
     },
     {
       "file": "runtime/research/lz77_protocol.py",
@@ -183,14 +183,14 @@
     {
       "file": "runtime/research/lz77_entropy_runtime.py",
       "original_sha256": "7b10dcda11b6eec75e02b2477c872e61039b20323751df765efe18bfddd3d740",
-      "submitted_sha256": "7b10dcda11b6eec75e02b2477c872e61039b20323751df765efe18bfddd3d740",
-      "change": "none"
+      "submitted_sha256": "fc19602d9480c99293695fc4508c6dba7254f9134c09f882443498e921233889",
+      "change": "Release packaging: Windows MSVC invocation uses relative ASCII paths; C code and Linux/GCC branch unchanged."
     },
     {
       "file": "runtime/research/lz77_packed_runtime.py",
       "original_sha256": "4e884e9389da14907a9bc26e3a00936813f1fdea8b4ca13ef50a654f4668cd54",
-      "submitted_sha256": "4e884e9389da14907a9bc26e3a00936813f1fdea8b4ca13ef50a654f4668cd54",
-      "change": "none"
+      "submitted_sha256": "7e6976c68325a581af7859b096ba42dea491e067c69dcb3c243cf971c47e3a45",
+      "change": "Release packaging: Windows MSVC invocation uses relative ASCII paths; C code and Linux/GCC branch unchanged."
     },
     {
       "file": "runtime/research/lz77_source.py",
