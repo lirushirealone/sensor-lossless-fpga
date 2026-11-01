@@ -1,7 +1,7 @@
 {
   "schema": "source-release-checks-v2",
   "date": "2026-11-01",
-  "source_version": "source-v2",
+  "source_version": "source-v3",
   "formal_version": "unified-v1",
   "software_tests": {
     "passed": 21,
@@ -103,5 +103,13 @@
     "Installer tested in a fresh independently downloaded Python environment on the current Windows x64 computer, not on a second physical computer.",
     "First installation needs internet access; ARM64/32-bit Windows and macOS/Linux double-click installation are not qualified.",
     "Board/RTL results retain their original measurement dates; GUI consolidation does not add new hardware performance measurements."
-  ]
+  ],
+  "documentation_revision": {
+    "date": "2026-11-01",
+    "cases": 10,
+    "original_visible_messages": 88,
+    "new_board_run": false,
+    "new_vivado_run": false,
+    "algorithm_and_installer_unchanged": true
+  }
 }

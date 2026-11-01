@@ -1,0 +1,192 @@
+{
+  "status": "INDEPENDENT_TRANSPORT_STUDY_PASS",
+  "client_date": "2026-10-20",
+  "files": 55,
+  "blocks": 1614,
+  "samples": 11972466,
+  "actual_primitive_packets": 144,
+  "actual_paired_packets": 736,
+  "prototype_compact_dma": false,
+  "batch_dma": false,
+  "hardware_changed": false,
+  "production_restored": true,
+  "previous_qualification_sha256": "f35503fa0e7a248605c6a3dff784d1c320882d531f06d8977c9807c245b3ea75",
+  "domains": {
+    "POWER": {
+      "u24_packet_bytes": 382283,
+      "flags8_packet_bytes": 246173,
+      "blocks": 40,
+      "samples": 172800,
+      "tokens": 127001,
+      "literals": 76001,
+      "matches": 51000,
+      "u32_packet_bytes": 509284,
+      "input_bytes": 691360,
+      "output_stalls": 0,
+      "matcher_work_cycles": 4647468,
+      "total_cycles": 5294389
+    },
+    "APPLIANCES": {
+      "u24_packet_bytes": 29409,
+      "flags8_packet_bytes": 22856,
+      "blocks": 6,
+      "samples": 39470,
+      "tokens": 9739,
+      "literals": 3887,
+      "matches": 5852,
+      "u32_packet_bytes": 39148,
+      "input_bytes": 157904,
+      "output_stalls": 0,
+      "matcher_work_cycles": 1097615,
+      "total_cycles": 1225992
+    },
+    "BIDMC": {
+      "u24_packet_bytes": 17953723,
+      "flags8_packet_bytes": 12530843,
+      "blocks": 1568,
+      "samples": 11760196,
+      "tokens": 5967849,
+      "literals": 3084776,
+      "matches": 2883073,
+      "u32_packet_bytes": 23921572,
+      "input_bytes": 47047056,
+      "output_stalls": 0,
+      "matcher_work_cycles": 326387766,
+      "total_cycles": 367695794
+    }
+  },
+  "cases": [
+    {
+      "domain": "POWER",
+      "normal_stream_ns": 38111089,
+      "diagnostic_stream_ns": 41996978,
+      "instrumentation_increase_pct": 10.196216119670588,
+      "diagnostic_full_block_medians_ns": {
+        "receive_transfer_ns": 185914.0,
+        "flush_ns": 214373.0,
+        "flush_bytes": 32772.0,
+        "send_transfer_ns": 414649.5,
+        "submit_ns": 951031.0,
+        "poll_read_ns": 429122.5,
+        "polls": 7.5,
+        "send_wait_ns": 138969.5,
+        "invalidate_ns": 252323.0,
+        "invalidate_bytes": 65600.0,
+        "receive_wait_ns": 428470.5,
+        "wait_ns": 1240412.5,
+        "stats_read_ns": 140646.5,
+        "finish_ns": 1906994.0,
+        "finish_after_wait_ns": 773046.5,
+        "wait_excluding_channel_finalizers_ns": 669984.5,
+        "channel_finalizers_excluding_invalidate_ns": 319342.0
+      },
+      "replay_medians_ns": {
+        "u32": {
+          "decode_crc_ns": 1145987,
+          "entropy_ns": 10666764,
+          "total_ns": 11814874
+        },
+        "u24": {
+          "decode_crc_ns": 5026650,
+          "entropy_ns": 10702448,
+          "total_ns": 15741340
+        },
+        "flags8": {
+          "decode_crc_ns": 4469514,
+          "entropy_ns": 10655754,
+          "total_ns": 15106382
+        }
+      },
+      "replay_flags8_time_increase_pct": 27.85901906359729
+    },
+    {
+      "domain": "APPLIANCES",
+      "normal_stream_ns": 30992116,
+      "diagnostic_stream_ns": 33600289,
+      "instrumentation_increase_pct": 8.415601567830988,
+      "diagnostic_full_block_medians_ns": {
+        "receive_transfer_ns": 187065.0,
+        "flush_ns": 212194.0,
+        "flush_bytes": 32772.0,
+        "send_transfer_ns": 414584.0,
+        "submit_ns": 946938.5,
+        "poll_read_ns": 1039926.0,
+        "polls": 19.5,
+        "send_wait_ns": 141600.5,
+        "invalidate_ns": 249699.0,
+        "invalidate_bytes": 65600.0,
+        "receive_wait_ns": 429394.0,
+        "wait_ns": 2195179.0,
+        "stats_read_ns": 141175.5,
+        "finish_ns": 2857994.0,
+        "finish_after_wait_ns": 599708.0,
+        "wait_excluding_channel_finalizers_ns": 1556099.0,
+        "channel_finalizers_excluding_invalidate_ns": 321356.0
+      },
+      "replay_medians_ns": {
+        "u32": {
+          "decode_crc_ns": 561027,
+          "entropy_ns": 5827231,
+          "total_ns": 6388258
+        },
+        "u24": {
+          "decode_crc_ns": 2923636,
+          "entropy_ns": 5812153,
+          "total_ns": 8719052
+        },
+        "flags8": {
+          "decode_crc_ns": 2794794,
+          "entropy_ns": 5817230,
+          "total_ns": 8598898
+        }
+      },
+      "replay_flags8_time_increase_pct": 34.60473888186733
+    },
+    {
+      "domain": "BIDMC",
+      "normal_stream_ns": 202562418,
+      "diagnostic_stream_ns": 213740431,
+      "instrumentation_increase_pct": 5.518305473624441,
+      "diagnostic_full_block_medians_ns": {
+        "receive_transfer_ns": 184175.5,
+        "flush_ns": 210218.5,
+        "flush_bytes": 32772.0,
+        "send_transfer_ns": 410833.5,
+        "submit_ns": 941092.0,
+        "poll_read_ns": 1302475.0,
+        "polls": 24.0,
+        "send_wait_ns": 139150.5,
+        "invalidate_ns": 251713.5,
+        "invalidate_bytes": 65600.0,
+        "receive_wait_ns": 430788.0,
+        "wait_ns": 2513926.5,
+        "stats_read_ns": 138609.0,
+        "finish_ns": 3212077.5,
+        "finish_after_wait_ns": 661769.5,
+        "wait_excluding_channel_finalizers_ns": 1931588.5,
+        "channel_finalizers_excluding_invalidate_ns": 319010.0
+      },
+      "replay_medians_ns": {
+        "u32": {
+          "decode_crc_ns": 5091672,
+          "entropy_ns": 50748644,
+          "total_ns": 55873880
+        },
+        "u24": {
+          "decode_crc_ns": 22355045,
+          "entropy_ns": 50843329,
+          "total_ns": 73194805
+        },
+        "flags8": {
+          "decode_crc_ns": 20309010,
+          "entropy_ns": 50876714,
+          "total_ns": 71082084
+        }
+      },
+      "replay_flags8_time_increase_pct": 27.218807786393207
+    }
+  ],
+  "scope": "Compact file sizes/ARM replay are separately labeled from actual original-protocol DMA. Timer disturbance measured, no end-to-end speedup inferred from byte counts.",
+  "verifier_sha256": "89d464ca9c553c7d61a34ca3fc3280dd60eef316c83b33a1fa5e999a7a6c7016",
+  "summary_sha256": "ffa59562069cce52f044bf3dfefee321f3e502c1e3a61cd244aa4216c941b5c9"
+}

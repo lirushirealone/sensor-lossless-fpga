@@ -1,0 +1,49 @@
+{
+  "status": "GENERIC_MANIFEST_SKILL_EXAMPLES_PASS",
+  "cases": [
+    {
+      "case": "valid_nested_first_project",
+      "accepted": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "valid_different_project",
+      "accepted": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "tampered_file_rejected",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "case": "missing_file_rejected",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "case": "relative_escape_rejected",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "case": "absolute_escape_rejected",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    }
+  ],
+  "passed": 6,
+  "real_board_accessed": false,
+  "date": "2026-11-01",
+  "script_sha256": "073e07892c1b33d9892ebdb9b23fb3b5a4343777b6132b8ddf61f541aabe29fe",
+  "auditor_sha256": "8f0b98333e13ebd3057450e1e981e4fda603a919f1a5de1d21c55a2778181ea3",
+  "different_projects": 2,
+  "retrospective_workflow_templates_not_claimed_as_original_prompts": true,
+  "second_physical_board_tested": false
+}

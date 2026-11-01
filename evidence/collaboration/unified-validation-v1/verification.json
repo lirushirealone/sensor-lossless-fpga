@@ -1,0 +1,102 @@
+{
+  "status": "INDEPENDENT_STAGE10_FINAL_PASS",
+  "endurance_sha256": "143e94b949d42a2311b57061d61ffeaafafb2643f2f62448ef9dee983814a932",
+  "restoration_sha256": "e1eb5a5c257490ff3b69ab95821475ad3c5a0ca59ff481bbad085256b964c6aa",
+  "acceptance_audit_sha256": "cbfb029c7c3ff4550d0a50d9d9cfb92ea476726b99794ea9a7a06bced3739e9a",
+  "duration_seconds": 1806.01584009,
+  "cycles": 152,
+  "verified_files": 2280,
+  "verified_samples": 622714056,
+  "verified_jobs": 79040,
+  "rss_end_delta_kib": 1296,
+  "cma_free_loss_kib": 2652,
+  "actual_dma_maps": 8,
+  "actual_mapped_bytes": 524288,
+  "actual_addresses_stable": true,
+  "mapping_release_pass": true,
+  "original_global_cma_free_guard_withdrawn": true,
+  "amendment_sha256": "2fff0006a274518646791e35fc155c9e8a288132c1e2904445511e7e93a3995e",
+  "old_stages_preserved": [
+    {
+      "stage": "delta-frontend-board-v1",
+      "sources": 4,
+      "artifacts": 259,
+      "qualification_sha256": "33c9ebb6b35aabb2db7d8a6cd9d6325644b79c34e8867d0e99e7f7757e88535b"
+    },
+    {
+      "stage": "lz77-hw-v1",
+      "sources": 28,
+      "artifacts": 240,
+      "qualification_sha256": "81f6cd3a207c3dace3617c2560c7941846df85f25f73281f5acba4b8c217c716"
+    },
+    {
+      "stage": "lz77-hw-v2",
+      "sources": 18,
+      "artifacts": 223,
+      "qualification_sha256": "5328b0b58df6be14fe7225a58ee6cd9d418d275f2135ad1647875a99945205d1"
+    },
+    {
+      "stage": "lz77-input-v1",
+      "sources": 10,
+      "artifacts": 185,
+      "qualification_sha256": "1cea4d987e439324ab319a3504041fb25e2d51d30a48fd840f3b1eba2ad2342c"
+    },
+    {
+      "stage": "lz77-entropy-v1",
+      "sources": 11,
+      "artifacts": 250,
+      "qualification_sha256": "ca39d3b5b849d1f43099268e010785727cd18700dfba6774d438409e47e0d866"
+    },
+    {
+      "stage": "lz77-driver-v1",
+      "sources": 14,
+      "artifacts": 204,
+      "qualification_sha256": "484e53ea16d5e502ea4dd8fda2d7055414d7ef39657c88d8e52cde410c3a8635"
+    },
+    {
+      "stage": "lz77-source-v1",
+      "sources": 12,
+      "artifacts": 193,
+      "qualification_sha256": "6949411f49e09778592240d87332bfcf089476a2d6ae20388b9137c4253b10ad"
+    },
+    {
+      "stage": "lz77-pipeline-v1",
+      "sources": 12,
+      "artifacts": 202,
+      "qualification_sha256": "9db994aab3a821b05b6fb7057677e302b4bbb1cdd3f95bae605d2200c4aa972a"
+    },
+    {
+      "stage": "lz77-epoch-v1",
+      "sources": 17,
+      "artifacts": 267,
+      "qualification_sha256": "200173487c2aa5a368c83a572161201fc4c15d39cb5cbc198fd2f430d1943007"
+    },
+    {
+      "stage": "lz77-clock-v1",
+      "sources": 22,
+      "artifacts": 362,
+      "qualification_sha256": "f35503fa0e7a248605c6a3dff784d1c320882d531f06d8977c9807c245b3ea75"
+    },
+    {
+      "stage": "lz77-transport-study-v1",
+      "sources": 11,
+      "artifacts": 202,
+      "qualification_sha256": "90db4f4ea4bf54cfa1214becdb0c52d5f34da46e7b8ffac680f40fe9514861b3"
+    },
+    {
+      "stage": "lz77-batch2-v1",
+      "sources": 18,
+      "artifacts": 419,
+      "qualification_sha256": "d7ce0af017c1377f8c5be5b514f4071a2646580edc2bfb7ba69dd79e6c904dc2"
+    },
+    {
+      "stage": "unified-v1",
+      "sources": 20,
+      "artifacts": 2407,
+      "qualification_sha256": "2c7f0b2293bc3a2a31ccb39080fbc31d60409d2f9afaa0a20f7c55b1eff029c4"
+    }
+  ],
+  "verifier_sha256": "e5722f3a6ead1f4ab344fb562b443bb07aae2061ec4de89fa39d178ef3b35a89",
+  "formal_version": "unified-v1",
+  "production_changed": false
+}

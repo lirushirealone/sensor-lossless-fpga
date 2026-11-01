@@ -1,0 +1,81 @@
+{
+  "schema": "collaboration-evidence-index-v1",
+  "prepared_date": "2026-11-01",
+  "sources": {
+    "evidence/collaboration/lz77-entropy-v1/report.md": {
+      "sha256": "9cb515b03a66ad071355a000ac221bdbc5054461c0633e7e78319a0f5472d524",
+      "original_relative_path": "results/lz77-entropy-v1/report.md",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/lz77-entropy-v1/verification.json": {
+      "sha256": "56cf18d97927ea23352da5d32200faeaf75c1f503b44789cb52e85848501cda9",
+      "original_relative_path": "results/lz77-entropy-v1/verification.json",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/lz77-pipeline-v1/report.md": {
+      "sha256": "c081cc268e53e6f2d31868af59f68d2e5828ec12fdbd8ebd5fff3cd157756ba4",
+      "original_relative_path": "results/lz77-pipeline-v1/report.md",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/lz77-pipeline-v1/verification.json": {
+      "sha256": "f27e644a2b8ff8b8031d1f24ecc671f28d0b5d81d70b8e318c68aa7ed929a971",
+      "original_relative_path": "results/lz77-pipeline-v1/verification.json",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/lz77-epoch-v1/report.md": {
+      "sha256": "f8e74b498a9c57f8edb2f9baee8d550a20d7b8add1569507978672d9f61033d8",
+      "original_relative_path": "results/lz77-epoch-v1/report.md",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/lz77-epoch-v1/verification.json": {
+      "sha256": "94cc7734209741285eba87f0343109a1cbc8b6ad98c4c88b77af87bff216a14a",
+      "original_relative_path": "results/lz77-epoch-v1/verification.json",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/lz77-clock-v1/report.md": {
+      "sha256": "d385fff7b9e35333c67a26affbecbb8c57dfaa4f0ed81831a28667ed145242de",
+      "original_relative_path": "results/lz77-clock-v1/report.md",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/lz77-clock-v1/verification.json": {
+      "sha256": "746a6ea06e3f1dc1dc7361cb5363919f74e20059432d96c719b8e44a9bf6421d",
+      "original_relative_path": "results/lz77-clock-v1/verification.json",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/lz77-transport-study-v1/report.md": {
+      "sha256": "032cfc6ec18c391b0dbfb3183d89d927991468df9bae964b3a58a6eda50d250e",
+      "original_relative_path": "results/lz77-transport-study-v1/report.md",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/lz77-transport-study-v1/verification.json": {
+      "sha256": "449bee0bc55590fc9228fa7b4ef4109fe2a3c88bd912c7a1f1a277acdd0c907d",
+      "original_relative_path": "results/lz77-transport-study-v1/verification.json",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/unified-v1/report.md": {
+      "sha256": "5d082f6042d208f70cbf15f44b2ed10bbb24781a2c907d1854d7212789c83fda",
+      "original_relative_path": "results/unified-v1/report.md",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/unified-v1/verification.json": {
+      "sha256": "ee8b73725efb82858349f7699281792d0d5fc1543c1112c8ad9d0354a7605cdf",
+      "original_relative_path": "results/unified-v1/verification.json",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/unified-validation-v1/report.md": {
+      "sha256": "5ef42405e0d734787f44db7e0b2616f982621135234a8f63e4fc562d82f43f12",
+      "original_relative_path": "results/unified-validation-v1/report.md",
+      "historical_measurement": true
+    },
+    "evidence/collaboration/unified-validation-v1/verification.json": {
+      "sha256": "8d2c26d1c25af96bd0c44c7bf4a54ce4405fe480c34320f8acb8de2bcf09c39b",
+      "original_relative_path": "results/unified-validation-v1/verification.json",
+      "historical_measurement": true
+    }
+  },
+  "new_board_run": false,
+  "new_vivado_run": false,
+  "full_chat_export": false,
+  "cases": 10,
+  "messages": 88
+}

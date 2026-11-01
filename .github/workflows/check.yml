@@ -14,3 +14,5 @@ jobs:
       - run: python tools/verify_release.py
       - run: python tools/run_tests.py
       - run: python tools/check_native.py
+      - run: python tools/check_collaboration.py
+      - run: python skill/check_examples.py

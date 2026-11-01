@@ -1,0 +1,163 @@
+{
+  "status": "INDEPENDENT_UNIFIED_PASS",
+  "client_date": "2026-10-21",
+  "files": 55,
+  "totals": {
+    "samples": 11972466,
+    "jobs": 1614,
+    "native_frames": 11784,
+    "frames": 1910,
+    "batches": 807
+  },
+  "domains": {
+    "POWER": {
+      "raw_bytes": 345600,
+      "output_bytes": 155235,
+      "legacy_bytes": 160047,
+      "large_only_bytes": 172677,
+      "jobs": 40,
+      "native_frames": 180
+    },
+    "APPLIANCES": {
+      "raw_bytes": 78940,
+      "output_bytes": 16126,
+      "legacy_bytes": 19668,
+      "large_only_bytes": 16062,
+      "jobs": 6,
+      "native_frames": 40
+    },
+    "BIDMC": {
+      "raw_bytes": 23520392,
+      "output_bytes": 9100719,
+      "legacy_bytes": 11359499,
+      "large_only_bytes": 9110044,
+      "jobs": 1568,
+      "native_frames": 11564
+    }
+  },
+  "metrics": [
+    {
+      "domain": "POWER",
+      "stream_medians_ns": {
+        "legacy": 70776468,
+        "group1": 121412738,
+        "group2": 104778523
+      },
+      "group2_vs_legacy_reduction_pct": -48.0414690939367,
+      "group2_vs_group1_reduction_pct": 13.700551749355983,
+      "group2_wins_vs_legacy": 0,
+      "saving_pct": 55.08246527777778,
+      "legacy_saving_pct": 53.690104166666664,
+      "large_only_saving_pct": 50.03559027777777
+    },
+    {
+      "domain": "APPLIANCES",
+      "stream_medians_ns": {
+        "legacy": 72812013,
+        "group1": 106314769,
+        "group2": 93655821
+      },
+      "group2_vs_legacy_reduction_pct": -28.626880567084445,
+      "group2_vs_group1_reduction_pct": 11.90704557708252,
+      "group2_wins_vs_legacy": 0,
+      "saving_pct": 79.57182670382569,
+      "legacy_saving_pct": 75.08487458829491,
+      "large_only_saving_pct": 79.65290093742082
+    },
+    {
+      "domain": "BIDMC",
+      "stream_medians_ns": {
+        "legacy": 464423027,
+        "group1": 634809580,
+        "group2": 607187753
+      },
+      "group2_vs_legacy_reduction_pct": -30.74023416155891,
+      "group2_vs_group1_reduction_pct": 4.351198827213665,
+      "group2_wins_vs_legacy": 0,
+      "saving_pct": 61.307111718206066,
+      "legacy_saving_pct": 51.703615313894424,
+      "large_only_saving_pct": 61.267465270136654
+    }
+  ],
+  "unit_tests": 64,
+  "physical_dual_engine_pending": true,
+  "fault_reloads": 9,
+  "summary_sha256": "6ef2b46363f9363178348dda7154c7127af0e2c3352d7955706ed646e719c770",
+  "verifier_sha256": "597ed6324be38720fbb993a7e265264ae18e3d556d2eddfe404f0d6b7ce6199d",
+  "source_history": [
+    {
+      "stage": "delta-frontend-board-v1",
+      "sources": 4,
+      "artifacts": 259,
+      "qualification_sha256": "33c9ebb6b35aabb2db7d8a6cd9d6325644b79c34e8867d0e99e7f7757e88535b"
+    },
+    {
+      "stage": "lz77-hw-v1",
+      "sources": 28,
+      "artifacts": 240,
+      "qualification_sha256": "81f6cd3a207c3dace3617c2560c7941846df85f25f73281f5acba4b8c217c716"
+    },
+    {
+      "stage": "lz77-hw-v2",
+      "sources": 18,
+      "artifacts": 223,
+      "qualification_sha256": "5328b0b58df6be14fe7225a58ee6cd9d418d275f2135ad1647875a99945205d1"
+    },
+    {
+      "stage": "lz77-input-v1",
+      "sources": 10,
+      "artifacts": 185,
+      "qualification_sha256": "1cea4d987e439324ab319a3504041fb25e2d51d30a48fd840f3b1eba2ad2342c"
+    },
+    {
+      "stage": "lz77-entropy-v1",
+      "sources": 11,
+      "artifacts": 250,
+      "qualification_sha256": "ca39d3b5b849d1f43099268e010785727cd18700dfba6774d438409e47e0d866"
+    },
+    {
+      "stage": "lz77-driver-v1",
+      "sources": 14,
+      "artifacts": 204,
+      "qualification_sha256": "484e53ea16d5e502ea4dd8fda2d7055414d7ef39657c88d8e52cde410c3a8635"
+    },
+    {
+      "stage": "lz77-source-v1",
+      "sources": 12,
+      "artifacts": 193,
+      "qualification_sha256": "6949411f49e09778592240d87332bfcf089476a2d6ae20388b9137c4253b10ad"
+    },
+    {
+      "stage": "lz77-pipeline-v1",
+      "sources": 12,
+      "artifacts": 202,
+      "qualification_sha256": "9db994aab3a821b05b6fb7057677e302b4bbb1cdd3f95bae605d2200c4aa972a"
+    },
+    {
+      "stage": "lz77-epoch-v1",
+      "sources": 17,
+      "artifacts": 267,
+      "qualification_sha256": "200173487c2aa5a368c83a572161201fc4c15d39cb5cbc198fd2f430d1943007"
+    },
+    {
+      "stage": "lz77-clock-v1",
+      "sources": 22,
+      "artifacts": 362,
+      "qualification_sha256": "f35503fa0e7a248605c6a3dff784d1c320882d531f06d8977c9807c245b3ea75"
+    },
+    {
+      "stage": "lz77-transport-study-v1",
+      "sources": 11,
+      "artifacts": 202,
+      "qualification_sha256": "90db4f4ea4bf54cfa1214becdb0c52d5f34da46e7b8ffac680f40fe9514861b3"
+    },
+    {
+      "stage": "lz77-batch2-v1",
+      "sources": 18,
+      "artifacts": 419,
+      "qualification_sha256": "d7ce0af017c1377f8c5be5b514f4071a2646580edc2bfb7ba69dd79e6c904dc2"
+    }
+  ],
+  "formal_activation_pending": true,
+  "scope": "Full integration bytes and full candidate sizes via pinned C reference, native frozen canonical bytes, all sources/CRCs/sequence/counts, actual dual DMA and paired wall time. Not endurance/unseen data or optimized same-algorithm ARM acceleration."
+}

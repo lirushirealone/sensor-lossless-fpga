@@ -1,6 +1,6 @@
 # 多通道传感数据无损压缩系统
 
-Sensor Lossless FPGA：基于PYNQ-Z2 / Zynq-7020的FPGA与ARM协同无损压缩系统。正式算法版本`unified-v1`，源码提交版`source-v2`。
+Sensor Lossless FPGA：基于PYNQ-Z2 / Zynq-7020的FPGA与ARM协同无损压缩系统。正式算法版本`unified-v1`，源码提交版`source-v3`。
 
 一份Overlay同时运行四路1024点预测/Rice/四点分组引擎和8192点LZ77引擎。ARM保留完整候选比较、动态Huffman、最终择优、UCF1组帧和校验；不是全硬件DEFLATE。支持原始回退、独立帧CRC、元数据CRC、序号和总点数检查。当前应用是公开传感数据文件回放，不是实体ADC连续采集。
 
@@ -104,3 +104,9 @@ Windows原生检查编译四个运行辅助库；可选的entropy计时诊断器
 桌面源码只保留runtime/desktop_gui，合并仍在使用的数据读取、板卡处理、关机检查与历史归档功能。新增install.cmd独立安装；21项软件检查、四个原生辅助库及134块参考通过。全新下载的Python环境中完成三份示例314034点完整还原、界面导入/解压、中文及空格路径、原源码移走后启动、重复安装保留历史、源码损坏拒绝和快捷方式目标核对。尚未在第二台实体电脑测试。
 
 正式算法、驱动、RTL、位流、构建与仿真文件保持原字节；本轮不重新声称完成上板、布局布线或关机。完整范围及原硬件测量日期见evidence/release_checks.json。
+
+## 大模型协作和技能材料补齐 2026年11月1日
+
+真实技术交互摘录为report/ai_records/records.md与records.json，共10个案例；包含可见原话、纠错、验证及明确的脱敏说明，不是完整聊天全集。report/AI_COLLABORATION.md为入口。历史报告与独立核验位于evidence/collaboration，各自保留原日期；其中原报告指向更大历史档案的链接不是本轮新实验，未附的原始板端逐包记录不能宣称已一并交付。
+
+技能包补充原始案例来源、用途、验证效果、失效条件和迁移边界。python skill/check_examples.py可在任何兼容Python电脑上运行清单核验正反例；python tools/check_collaboration.py检查交互文本和证据指纹。这些步骤不连接板卡。source-v3只更新交付文档与核验材料，正式算法仍为unified-v1，安装器和算法文件保持source-v2字节。

@@ -1,0 +1,722 @@
+{
+  "status": "INDEPENDENT_EPOCH_PHYSICAL_AUDIT_PASS",
+  "client_date": "2026-10-19",
+  "real_files": 55,
+  "real_blocks": 1614,
+  "unique_samples": 11972466,
+  "records": [
+    {
+      "domain": "POWER",
+      "record": "power01",
+      "samples": 34560,
+      "blocks": 8,
+      "first_sequence": 135,
+      "last_sequence": 142,
+      "frozen_candidate_sha256": "3663e9aaa763480859ce8ef929176f16c8fe80b4ca23728a4c54ddbf11f5e7cd"
+    },
+    {
+      "domain": "POWER",
+      "record": "power02",
+      "samples": 34560,
+      "blocks": 8,
+      "first_sequence": 143,
+      "last_sequence": 150,
+      "frozen_candidate_sha256": "6da39af1070cfa747c6dcded0a7b07247fe83ab30343ef9e06bf0e990831be5d"
+    },
+    {
+      "domain": "POWER",
+      "record": "power03",
+      "samples": 34560,
+      "blocks": 8,
+      "first_sequence": 151,
+      "last_sequence": 158,
+      "frozen_candidate_sha256": "79d6b399ab4e34173c01ed63c83d3b2d8becefe8584d5b9fbb40d4d06b2ce46e"
+    },
+    {
+      "domain": "POWER",
+      "record": "power04",
+      "samples": 34560,
+      "blocks": 8,
+      "first_sequence": 159,
+      "last_sequence": 166,
+      "frozen_candidate_sha256": "71ff015c95c8a7d3b34a6e930061995e0bba2fe083bdb0f3374e2bab4102346b"
+    },
+    {
+      "domain": "POWER",
+      "record": "power05",
+      "samples": 34560,
+      "blocks": 8,
+      "first_sequence": 167,
+      "last_sequence": 174,
+      "frozen_candidate_sha256": "f739e939fed61b0ef8b1e3d3cd129911a3d7fbbab33cc052982e578470076229"
+    },
+    {
+      "domain": "APPLIANCES",
+      "record": "appliances_energy",
+      "samples": 39470,
+      "blocks": 6,
+      "first_sequence": 175,
+      "last_sequence": 180,
+      "frozen_candidate_sha256": "bfc5a1badf47857cea8f4ab804162154f243b87dc76590f36d247c1c705f025f"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc01",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 181,
+      "last_sequence": 212,
+      "frozen_candidate_sha256": "d143501a4f3c8e1ebd732afc3527ff899ebc91d93418cb8a85196c3727e6969b"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc02",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 213,
+      "last_sequence": 244,
+      "frozen_candidate_sha256": "bd8a441a38857de3b7db4888088d7826ac00423ff674c6c730c0e1af4f03341d"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc03",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 245,
+      "last_sequence": 276,
+      "frozen_candidate_sha256": "18883c5408a7e5695b1025a4993494a6fb356b58fbd650d0d047778a9293ab09"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc04",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 277,
+      "last_sequence": 308,
+      "frozen_candidate_sha256": "9c961bef4500d8afc4372cba2a512e9382400d334661fa5c564b498534ad8896"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc05",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 309,
+      "last_sequence": 340,
+      "frozen_candidate_sha256": "74e7b36b4d1de7fe56d125088e4c5ca38a4e5af50bf4cfabf84e7538094c68ba"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc06",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 341,
+      "last_sequence": 372,
+      "frozen_candidate_sha256": "22d1f3b6247f7b2a84eab6c59e1eb1b98aa87e15a321c9f4144afc48fe2ffa6e"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc07",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 373,
+      "last_sequence": 404,
+      "frozen_candidate_sha256": "3f4a79b294efd17edf1ecdfb037290f5d965c02a63cfd59da3f5b0c98ff33abd"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc08",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 405,
+      "last_sequence": 436,
+      "frozen_candidate_sha256": "b0111ea7337d968bff82c7a153ddf845592335affdeb9f6a776c4d88ff74aa5e"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc09",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 437,
+      "last_sequence": 468,
+      "frozen_candidate_sha256": "c70e59d7d1c0f6a285f9ad9c9394f6adcbbf00eaac5c6476842d0ab0ee6635e7"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc10",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 469,
+      "last_sequence": 500,
+      "frozen_candidate_sha256": "753103d6b7eb1bd302d368a7b1e9f75b19e4a59faade7363105d3a30d0927e83"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc11",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 501,
+      "last_sequence": 532,
+      "frozen_candidate_sha256": "0184919cca6cca473558e533db10584afb8400d6542f77b96a474e64ebdad293"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc12",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 533,
+      "last_sequence": 564,
+      "frozen_candidate_sha256": "4be03b63dc7615354311c026d9e15a70af82b7cf4689abdaa66d73db2fb18631"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc13",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 565,
+      "last_sequence": 596,
+      "frozen_candidate_sha256": "aac0129731a5a47c93d456ce4564b59e566dffe8cfde4883e0496072320415e8"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc14",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 597,
+      "last_sequence": 628,
+      "frozen_candidate_sha256": "99b02f2967288dcab00efb6dbc9a4c99a42b6503e23238bbeff97dc8c001b3e2"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc16",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 629,
+      "last_sequence": 660,
+      "frozen_candidate_sha256": "c1360c6827121034eebb5447e46aa1c1e0cb6db3df3ee5b6029c68cbea9499b5"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc17",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 661,
+      "last_sequence": 692,
+      "frozen_candidate_sha256": "ecb6192b1f1e8e64072602ad012f8fb6870f79814ff1ea9c902e6c2bb501eae5"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc18",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 693,
+      "last_sequence": 724,
+      "frozen_candidate_sha256": "a7d809a7581ba5e302fe82383776eb957996526c0afe609ed5fb3edeedfb7f96"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc19",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 725,
+      "last_sequence": 756,
+      "frozen_candidate_sha256": "e404d31d10aa7f505da57808385387a81d3b7a69fdf4be1a44f079dc011967b6"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc20",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 757,
+      "last_sequence": 788,
+      "frozen_candidate_sha256": "f563cd1f6d15b7147b40ebff2d0312f536798c9bbbca826799bf1b62308eff0a"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc21",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 789,
+      "last_sequence": 820,
+      "frozen_candidate_sha256": "685f464ab3d5e66f56ee9d6fc3f8a4b8a40e77fc5af3b02f4798181cd372f51e"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc22",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 821,
+      "last_sequence": 852,
+      "frozen_candidate_sha256": "9fa55fc3fd1eff4a8e7b5b01bb61db256e039cfafc04cac5147111b81e94b47c"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc23",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 853,
+      "last_sequence": 884,
+      "frozen_candidate_sha256": "cef65759a8c2ed86c9c9c93997548f40318e0962833689242c16199d358c6f4f"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc24",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 885,
+      "last_sequence": 916,
+      "frozen_candidate_sha256": "168c931539d32d048e22be280b29c5f7458228b7ed1efc3fb30c81e0bea9a4f2"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc25",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 917,
+      "last_sequence": 948,
+      "frozen_candidate_sha256": "a67be039d2d1eec791778d75358388fde6feab9fef7b3752207664c503a23bdc"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc26",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 949,
+      "last_sequence": 980,
+      "frozen_candidate_sha256": "5fc7f65b788c09fbe2cafe74b31ff29751f23afbbe97d71eb61576d9db0dc747"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc27",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 981,
+      "last_sequence": 1012,
+      "frozen_candidate_sha256": "1b058333f26dfc24090d3bf2ecf7ce9d002d0399f24faa1a78ebc68de38ad426"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc28",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1013,
+      "last_sequence": 1044,
+      "frozen_candidate_sha256": "5b5637f29c6a7cc845a9164c560358f821caa0843c5931dff8ba480767946b43"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc29",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1045,
+      "last_sequence": 1076,
+      "frozen_candidate_sha256": "9525df6acdfe13991ed1df8c2a8745b32960849270569328eef9095695447736"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc31",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1077,
+      "last_sequence": 1108,
+      "frozen_candidate_sha256": "409f6be885693d87100471fc40cd9ed828d40bfea3c1324aece6096b6fdfe142"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc32",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1109,
+      "last_sequence": 1140,
+      "frozen_candidate_sha256": "af8f8c6b9df4d2ad28ed1332128a070015ecf938e1e69cd7d8991cfdfcecfed8"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc33",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1141,
+      "last_sequence": 1172,
+      "frozen_candidate_sha256": "2fd4d839124f09301e09ed3e0e3d413d09c87809b70c5242449b9d29cf82ea71"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc34",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1173,
+      "last_sequence": 1204,
+      "frozen_candidate_sha256": "e2285bd4e4cf4c4ef0090cf7c64b53ddc0cc08717af77b4c1e10f9b67d07356e"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc35",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1205,
+      "last_sequence": 1236,
+      "frozen_candidate_sha256": "22af00c5adf90d2d7ccfc40f487897d20fef096577a010adc35862edb49df791"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc36",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1237,
+      "last_sequence": 1268,
+      "frozen_candidate_sha256": "b5a526fc6213cb327564980afd2156341f66308f30ac5ade46424a06a4d6932a"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc37",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1269,
+      "last_sequence": 1300,
+      "frozen_candidate_sha256": "8b7eb807bdae7431153a5408c87cf5eb414f7c92bbfe88c0222e3698da5e8563"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc39",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1301,
+      "last_sequence": 1332,
+      "frozen_candidate_sha256": "64e59784ad9261c64ea21a194a6e2c19d74927efda3810d5e7cf261361b192d3"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc40",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1333,
+      "last_sequence": 1364,
+      "frozen_candidate_sha256": "1fe5005341594ff5609fbda4d39bbb0b4a6aca469469a78651b6d05f20cef748"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc41",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1365,
+      "last_sequence": 1396,
+      "frozen_candidate_sha256": "c4f95d6d96f60a27f109ee553f31e129321744a4d7118469ecd5997452899998"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc42",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1397,
+      "last_sequence": 1428,
+      "frozen_candidate_sha256": "23caedea87f2da013b4cc28294d57998e1e77725ae1ce4fe185751f2380dc01e"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc43",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1429,
+      "last_sequence": 1460,
+      "frozen_candidate_sha256": "a465a2d3eccdcaa8ed438324b03a1beea9722b1ca57b73d5e36d4324c9ddbe66"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc44",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1461,
+      "last_sequence": 1492,
+      "frozen_candidate_sha256": "53b04c23d0d22a5975a1c522a883d4ea7a1d4035303edde9c83f9718b5016c1e"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc45",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1493,
+      "last_sequence": 1524,
+      "frozen_candidate_sha256": "48569ce9162b1343691dafe33d2dbc0f5ad0a9b673dbba0cca5bc1aa1facdb54"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc46",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1525,
+      "last_sequence": 1556,
+      "frozen_candidate_sha256": "611eda34389a49823459f454cc9703115bb9df70a6feee0f1ca72f133460ea3b"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc47",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1557,
+      "last_sequence": 1588,
+      "frozen_candidate_sha256": "ac8f00820683fc322c9efd883bc909678f003fcc466db236c8fca91596760377"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc48",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1589,
+      "last_sequence": 1620,
+      "frozen_candidate_sha256": "46f0ccaeea81f4fd1977cd150765e3d16b7a327b4a4ccc1d11c23e0cca963999"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc50",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1621,
+      "last_sequence": 1652,
+      "frozen_candidate_sha256": "10ada482f1f2e19a7014d2e88d185da55691d68f5cd10e174a9ffc774ae58489"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc51",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1653,
+      "last_sequence": 1684,
+      "frozen_candidate_sha256": "36511a4233085c686a453051965d6cc5ddd03ae42a20f11fbced8eb60bb9b736"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc52",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1685,
+      "last_sequence": 1716,
+      "frozen_candidate_sha256": "9841503300ac2e2cd9d6ebf8689b56f45bba52f52a410c59c26331565ee86fff"
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc53",
+      "samples": 240004,
+      "blocks": 32,
+      "first_sequence": 1717,
+      "last_sequence": 1748,
+      "frozen_candidate_sha256": "476ce8afde443a789f6fa9fbee862bbb921f82fa6258b0e2ed0a71e50a15b1d4"
+    }
+  ],
+  "boundary_blocks": 134,
+  "arm_unit_tests": 42,
+  "mixed_stress_blocks": 6,
+  "frame_ast_unchanged": true,
+  "production_restored": true,
+  "hardware_changed": true,
+  "production_default_changed": false,
+  "preserved": {
+    "direct-frame-v1": {
+      "files": 161
+    },
+    "delta-frontend-board-v1": {
+      "artifacts": 259,
+      "sources": 4
+    },
+    "lz77-hw-v1": {
+      "artifacts": 240,
+      "sources": 28
+    },
+    "lz77-hw-v2": {
+      "artifacts": 223,
+      "sources": 18
+    },
+    "lz77-input-v1": {
+      "artifacts": 185,
+      "sources": 10
+    },
+    "lz77-entropy-v1": {
+      "artifacts": 250,
+      "sources": 11
+    },
+    "lz77-driver-v1": {
+      "artifacts": 204,
+      "sources": 14
+    },
+    "lz77-source-v1": {
+      "artifacts": 193,
+      "sources": 12
+    },
+    "lz77-pipeline-v1": {
+      "artifacts": 202,
+      "sources": 12
+    }
+  },
+  "rtl": {
+    "status": "INDEPENDENT_EPOCH_RTL_BUILD_PASS",
+    "results": {
+      "matcher": {
+        "blocks": 301,
+        "seeds": 3,
+        "variants": 2,
+        "removed_work_cycles_per_trial": 9175040,
+        "cold_blocks": 21
+      },
+      "axis": {
+        "blocks": 134,
+        "seeds": 3,
+        "variants": 2,
+        "removed_work_cycles_per_trial": 4096000,
+        "cold_blocks": 9
+      }
+    },
+    "clock_mhz": 50,
+    "setup_slack_ns": 0.209,
+    "hold_slack_ns": 0.007,
+    "resources": {
+      "lut": 5318.0,
+      "ff": 7871.0,
+      "bram36_equivalent": 36.0,
+      "dsp": 0.0
+    },
+    "axis_and_matcher_ports_unchanged": true
+  },
+  "full_cycles": {
+    "status": "ACTUAL55_EPOCH_CYCLE_DELTA_PASS",
+    "removed_cycles": 49348608,
+    "removed_device_work_ns": 986972160,
+    "warm_blocks": 1506,
+    "cold_blocks": 108,
+    "domains": {
+      "POWER": {
+        "removed_cycles": 1212416,
+        "warm_blocks": 37,
+        "cold_blocks": 3
+      },
+      "APPLIANCES": {
+        "removed_cycles": 196608,
+        "warm_blocks": 6,
+        "cold_blocks": 0
+      },
+      "BIDMC": {
+        "removed_cycles": 47939584,
+        "warm_blocks": 1463,
+        "cold_blocks": 105
+      }
+    },
+    "caveat": "Counter removal from matcher work at50MHz, not equal to whole stream wall-time saving; encoding/transactions overlap."
+  },
+  "wrap": {
+    "status": "INDEPENDENT_EPOCH_WRAP_RECOVERY_PASS",
+    "warmup_blocks": 15,
+    "reloaded_blocks": 17,
+    "first_and_reused_tag_cold_cycles": 100336
+  },
+  "paired": {
+    "status": "INDEPENDENT_EPOCH_PAIRED_PASS",
+    "wire_blocks": 736,
+    "measured_rounds": 7,
+    "cases": [
+      {
+        "domain": "POWER",
+        "record": "power01",
+        "blocks": 8,
+        "samples": 34560,
+        "medians": {
+          "baseline": {
+            "total_ns": 44806000,
+            "first_emit_ns": 12060080,
+            "pending_encode_ns": 10621860,
+            "token_entropy_ns": 11227337,
+            "input_prepare_ns": 3016192,
+            "last_submit_to_finish_ns": 3370375,
+            "cpu_total_ns": 35916689
+          },
+          "epoch": {
+            "total_ns": 42277089,
+            "first_emit_ns": 11489871,
+            "pending_encode_ns": 10628912,
+            "token_entropy_ns": 11169392,
+            "input_prepare_ns": 3078887,
+            "last_submit_to_finish_ns": 3445920,
+            "cpu_total_ns": 37113323
+          }
+        },
+        "complete_stream_time_reduction_pct": 5.64413471410079,
+        "epoch_vs_cpu_time_ratio": 1.139135102507528,
+        "removed_matcher_work_cycles": 262144,
+        "removed_matcher_work_ns": 5242880,
+        "faster_rounds": 7,
+        "reduction_range_pct": [
+          1.7703041222695282,
+          7.3302176197639906
+        ]
+      },
+      {
+        "domain": "APPLIANCES",
+        "record": "appliances_energy",
+        "blocks": 6,
+        "samples": 39470,
+        "medians": {
+          "baseline": {
+            "total_ns": 40538621,
+            "first_emit_ns": 12448123,
+            "pending_encode_ns": 5738658,
+            "token_entropy_ns": 6291551,
+            "input_prepare_ns": 2642942,
+            "last_submit_to_finish_ns": 4283668,
+            "cpu_total_ns": 36262757
+          },
+          "epoch": {
+            "total_ns": 36738708,
+            "first_emit_ns": 11817144,
+            "pending_encode_ns": 5794241,
+            "token_entropy_ns": 6386454,
+            "input_prepare_ns": 2689767,
+            "last_submit_to_finish_ns": 3750726,
+            "cpu_total_ns": 36511465
+          }
+        },
+        "complete_stream_time_reduction_pct": 9.37356255902242,
+        "epoch_vs_cpu_time_ratio": 1.0062238806358497,
+        "removed_matcher_work_cycles": 196608,
+        "removed_matcher_work_ns": 3932160,
+        "faster_rounds": 7,
+        "reduction_range_pct": [
+          8.092019212987045,
+          11.709899245049849
+        ]
+      },
+      {
+        "domain": "BIDMC",
+        "record": "bidmc01",
+        "blocks": 32,
+        "samples": 240004,
+        "medians": {
+          "baseline": {
+            "total_ns": 259395729,
+            "first_emit_ns": 11970504,
+            "pending_encode_ns": 51843657,
+            "token_entropy_ns": 52986864,
+            "input_prepare_ns": 15032177,
+            "last_submit_to_finish_ns": 5358566,
+            "cpu_total_ns": 292059421
+          },
+          "epoch": {
+            "total_ns": 241300492,
+            "first_emit_ns": 12039323,
+            "pending_encode_ns": 52281921,
+            "token_entropy_ns": 53379699,
+            "input_prepare_ns": 15289366,
+            "last_submit_to_finish_ns": 4746406,
+            "cpu_total_ns": 302108153
+          }
+        },
+        "complete_stream_time_reduction_pct": 6.975919406907427,
+        "epoch_vs_cpu_time_ratio": 0.7987222112473078,
+        "removed_matcher_work_cycles": 950272,
+        "removed_matcher_work_ns": 19005440,
+        "faster_rounds": 7,
+        "reduction_range_pct": [
+          5.360282936655447,
+          7.707492601812504
+        ]
+      }
+    ]
+  },
+  "verifier_sha256": "56b8caa061c9e5f789cc7f9b82b5aef559983104a211124cf695a197ba3b7dfc",
+  "summary_sha256": "630280e8ef7e142ec5c6d18e33e76e25db991cd5bc834738dedd5c1e4a5cd46f"
+}
