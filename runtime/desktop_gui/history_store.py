@@ -6,7 +6,7 @@ from . import dataio
 
 ROOT=Path(__file__).resolve().parents[1]
 HISTORY_ROOT=ROOT/'历史结果汇总'
-STAGING_ROOT=ROOT/'desktop_gui_v3/work'
+STAGING_ROOT=ROOT/'results/work'
 
 
 def inside(path,parent):

@@ -8,5 +8,5 @@ for p in sorted(ROOT.rglob('*')):
     parts=p.relative_to(ROOT).parts
     if any(x in parts for x in ('.git','.venv','__pycache__')) or parts[0]=='results' or parts[:2] in (('runtime','results'),('build','output')):continue
     files[p.relative_to(ROOT).as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
-(ROOT/'manifest.json').write_text(json.dumps(dict(schema='sensor-lossless-fpga-source-v1',files=files),indent=2)+'\n',encoding='utf-8')
+(ROOT/'manifest.json').write_text(json.dumps(dict(schema='sensor-lossless-fpga-source-v2',files=files),indent=2)+'\n',encoding='utf-8')
 print('SOURCE_MANIFEST_WRITTEN',len(files))

@@ -3,7 +3,7 @@ import argparse,getpass,json,os,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'runtime'),str(ROOT/'tools')]
 from app_config import configure
-from desktop_gui_v1.backend import Connection
+from desktop_gui.backend import Connection
 
 
 def main():

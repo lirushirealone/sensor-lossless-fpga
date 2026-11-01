@@ -5,4 +5,5 @@
 - `build/ps7_preset.tcl`：由Xilinx/PYNQ v3.0.1的PYNQ-Z2预设提取，来源 https://github.com/Xilinx/PYNQ/tree/v3.0.1 ，BSD-3-Clause许可全文见PYNQ_LICENSE.txt。
 - AMD Vivado、AXI DMA/Interconnect、Processing System 7等由用户合法安装的AMD工具提供，未分发工具本体或声称IP属于自研。
 - NumPy、PYNQ、PySide6、pyqtgraph及Paramiko等采用各自许可，通过环境依赖安装，不把其作为自研源码打包。
+- `installer`通过固定URL与SHA256下载uv 0.13.6（Astral，MIT或Apache-2.0），由其管理独立的python-build-standalone CPython及依赖；这些下载产物保留上游许可，不受本项目MIT重新授权。源码包不含uv、Python或Qt安装二进制。PySide6/Qt采用其上游许可，安装后保留依赖包随附的许可文件。
 - 示例数据另遵循`data/SOURCES.md`及catalog.json的许可与引用，不受根MIT许可重新授权。

@@ -1,6 +1,6 @@
 # 多通道传感数据无损压缩系统
 
-Sensor Lossless FPGA：基于PYNQ-Z2 / Zynq-7020的FPGA与ARM协同无损压缩系统。正式算法版本`unified-v1`，源码提交版`source-v1`。
+Sensor Lossless FPGA：基于PYNQ-Z2 / Zynq-7020的FPGA与ARM协同无损压缩系统。正式算法版本`unified-v1`，源码提交版`source-v2`。
 
 一份Overlay同时运行四路1024点预测/Rice/四点分组引擎和8192点LZ77引擎。ARM保留完整候选比较、动态Huffman、最终择优、UCF1组帧和校验；不是全硬件DEFLATE。支持原始回退、独立帧CRC、元数据CRC、序号和总点数检查。当前应用是公开传感数据文件回放，不是实体ADC连续采集。
 
@@ -10,7 +10,7 @@ Sensor Lossless FPGA：基于PYNQ-Z2 / Zynq-7020的FPGA与ARM协同无损压缩�
 |---|---|
 | src/rtl | 与正式设计逐字节相同的6份最终RTL |
 | runtime/board、runtime/research | 完整活动驱动/算法依赖及软件契约测试；保留原模块布局以避免改动算法 |
-| runtime/desktop_gui_v1..v3 | 当前桌面界面的完整源码依赖；软件包适配位于tools/app_config.py |
+| runtime/desktop_gui | 唯一桌面界面源码，已合并全部当前功能；软件包适配位于tools/app_config.py |
 | runtime/unified-overlay | 经过上板验证的bit/hwh；哈希见manifest及历史证据 |
 | sim | 独立双时钟端点仿真、固定输入和黄金输出哈希 |
 | build | Vivado Tcl、PYNQ-Z2 PS7预设与独立构建入口 |
@@ -48,6 +48,12 @@ python tools/run_board.py decompress --input results/power01.ucf --output result
 ```
 
 首次运行从随包C源码构建主机架构的辅助库，不复用Windows DLL到ARM。压缩后再次对照原输入全量复核，失败保留.part，不发布为成功文件。已有输出不覆盖。一次只让一个程序拥有该板卡；使用CLI前正常结束其他板卡任务。
+
+## Windows双击安装
+
+将源码包完整解压后，双击根目录的`install.cmd`。适用Windows 10/11 x64；首次需联网下载已固定并校验的安装工具、独立Python与依赖，不要求预装Python或Vivado，不改系统Python。安装完成创建桌面和开始菜单快捷方式。默认安装到当前用户的LocalAppData/Programs/SensorLosslessFPGA。详细说明与修复方法见installer/README.md。
+
+程序复制到独立安装目录，安装后可移走原始源码包；导入数据、历史结果汇总和工作缓存位于安装根目录。板卡IP、账号与SSH公钥须在另一台电脑正常配置，不能复制本机私钥或登录密码。
 
 ## 从电脑使用图形界面
 
@@ -87,8 +93,14 @@ python build/run_build.py --vivado <vivado_executable>
 
 自研代码MIT；zlib、PYNQ预设及示例数据保留各自许可与引用，详见third_party/NOTICE.md、data/SOURCES.md。
 
-## 本次源码整理验证（2026-10-31）
+## 历史板级验证（2026-10-31）
 
 19项软件测试、134个原生C测试块、三种背压种子的双时钟RTL回归通过；离屏界面导入和解压选择通过。独立板端目录重新实跑三组示例、全量核对314034点，压缩字节与冻结参考一致。未重新进行完整布局布线；未执行板卡关机。完整范围见evidence/release_checks.json。
 
 Windows原生检查编译四个运行辅助库；可选的entropy计时诊断器仅在Linux/板端测试，原诊断C的Windows头文件宏冲突尚未处理，不影响桌面界面或正式压缩。
+
+## 当前源码与安装验证（2026-11-01）
+
+桌面源码只保留runtime/desktop_gui，合并仍在使用的数据读取、板卡处理、关机检查与历史归档功能。新增install.cmd独立安装；21项软件检查、四个原生辅助库及134块参考通过。全新下载的Python环境中完成三份示例314034点完整还原、界面导入/解压、中文及空格路径、原源码移走后启动、重复安装保留历史、源码损坏拒绝和快捷方式目标核对。尚未在第二台实体电脑测试。
+
+正式算法、驱动、RTL、位流、构建与仿真文件保持原字节；本轮不重新声称完成上板、布局布线或关机。完整范围及原硬件测量日期见evidence/release_checks.json。

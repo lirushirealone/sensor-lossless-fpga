@@ -1,0 +1,18 @@
+{
+  "formal_version": "unified-v1",
+  "bit_sha256": "a0ee080269be259534432c3b14109c68dbf1d9f67a1f978f1d8414c7fc2d6ee0",
+  "hwh_sha256": "1222834906428109199102f6f85ffcc330ef434af7fecbcb7de8b705caeb7ead",
+  "hardware": {
+    "part": "xc7z020clg400-1",
+    "lut": 20669.0,
+    "ff": 24515.0,
+    "bram36_equivalent": 49.0,
+    "dsp": 0.0,
+    "clocks_mhz": [
+      66.666672,
+      50.0
+    ],
+    "setup_slack_ns": 0.247,
+    "hold_slack_ns": 0.023
+  }
+}

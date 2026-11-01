@@ -427,96 +427,6 @@
       "change": "none"
     },
     {
-      "file": "runtime/desktop_gui_v1/__init__.py",
-      "original_sha256": "c5a7bf6cd02c864df0291bbe1220ab0a25587c4612e988d4e1319639ab84cc71",
-      "submitted_sha256": "c5a7bf6cd02c864df0291bbe1220ab0a25587c4612e988d4e1319639ab84cc71",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v1/backend.py",
-      "original_sha256": "bfc6a69b9b842e9d9f7a0eacddc0264add35c48238f8976f34fb61acd5cc9bd4",
-      "submitted_sha256": "f4b4fbf646e13728de16741d9baa715a8edb16e53d2f018c138b41a3284f213c",
-      "change": "Packaging adapter: remove preset password / bind helper to isolated runtime root; codec/RTL unchanged"
-    },
-    {
-      "file": "runtime/desktop_gui_v1/board_job.py",
-      "original_sha256": "b99932d52f784e544f11f1c98ddea12b572179b079eacbf599d0ef6f79812c17",
-      "submitted_sha256": "b99932d52f784e544f11f1c98ddea12b572179b079eacbf599d0ef6f79812c17",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v1/dataio.py",
-      "original_sha256": "27e16186d1b09036e595851e8194073c277383afd823659e9d23ae92c75260bd",
-      "submitted_sha256": "27e16186d1b09036e595851e8194073c277383afd823659e9d23ae92c75260bd",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v1/preflight.py",
-      "original_sha256": "5543f0ff926fb8b0d27da1fcd06ee2005c6633606e18142d54b829c9f2176809",
-      "submitted_sha256": "5543f0ff926fb8b0d27da1fcd06ee2005c6633606e18142d54b829c9f2176809",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v2/__init__.py",
-      "original_sha256": "4cbc67b3a8e78bf8e1432a7217ebf0a11f9cb9aa49312576c5b10daa13200899",
-      "submitted_sha256": "4cbc67b3a8e78bf8e1432a7217ebf0a11f9cb9aa49312576c5b10daa13200899",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v2/backend.py",
-      "original_sha256": "d19f608bd692f11bff307305f1aa1ab9c4bd46e057ac1b305202ec29d632a837",
-      "submitted_sha256": "83b625ef3df8d9e46804afa8d67bfb6354477cfd44ba602e9b79e41d5bc55b34",
-      "change": "Packaging adapter: remove preset password / bind helper to isolated runtime root; codec/RTL unchanged"
-    },
-    {
-      "file": "runtime/desktop_gui_v2/dataio.py",
-      "original_sha256": "fac6107bf30d102b32494089b9d6d9cd12df2d89707a25993dc7424e7bebfc8f",
-      "submitted_sha256": "fac6107bf30d102b32494089b9d6d9cd12df2d89707a25993dc7424e7bebfc8f",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v2/library.py",
-      "original_sha256": "d096d27ca78cdb583c2875506ca680a3a175adecd68a26a7245d0d59f83e5fd6",
-      "submitted_sha256": "d096d27ca78cdb583c2875506ca680a3a175adecd68a26a7245d0d59f83e5fd6",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v2/poweroff_board.py",
-      "original_sha256": "eb4fe82ff6193061b94ce7ceaa54a50ce76fdf38d83d3e00358a4185b5b426cc",
-      "submitted_sha256": "eb4fe82ff6193061b94ce7ceaa54a50ce76fdf38d83d3e00358a4185b5b426cc",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v3/__init__.py",
-      "original_sha256": "3cb0e075075b1f558edf70de464321232599ca95b63c630f9b07660f20d8dc65",
-      "submitted_sha256": "3cb0e075075b1f558edf70de464321232599ca95b63c630f9b07660f20d8dc65",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v3/backend.py",
-      "original_sha256": "38db65a09b15c2889b5022685cc0cdb907bfe080dfe356be70d48dfdd8fd6f4b",
-      "submitted_sha256": "38db65a09b15c2889b5022685cc0cdb907bfe080dfe356be70d48dfdd8fd6f4b",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v3/dataio.py",
-      "original_sha256": "f349f9c7bd18c18624e49bc7649f644ea5a7d7225a0716ffcc5fe8c652f25e2b",
-      "submitted_sha256": "f349f9c7bd18c18624e49bc7649f644ea5a7d7225a0716ffcc5fe8c652f25e2b",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v3/history_store.py",
-      "original_sha256": "767537a7bba4b78795c23ad2a9af3c6d1c1f0d78474d7b901c2869625e8015ee",
-      "submitted_sha256": "767537a7bba4b78795c23ad2a9af3c6d1c1f0d78474d7b901c2869625e8015ee",
-      "change": "none"
-    },
-    {
-      "file": "runtime/desktop_gui_v3/main.py",
-      "original_sha256": "1926d746284342188248a2e8ff8e893f5ec02eea48afc6d5489c19b34def6416",
-      "submitted_sha256": "4e6f9752b47498c1381bdbf200cb5b2ef4ad6016db5bc9b4223d44d971b41dcd",
-      "change": "Packaging adapter: remove preset password / bind helper to isolated runtime root; codec/RTL unchanged"
-    },
-    {
       "file": "runtime/board/gui_preflight.py",
       "original_sha256": "5543f0ff926fb8b0d27da1fcd06ee2005c6633606e18142d54b829c9f2176809",
       "submitted_sha256": "5543f0ff926fb8b0d27da1fcd06ee2005c6633606e18142d54b829c9f2176809",
@@ -665,6 +575,54 @@
       "original_sha256": "ff4ea0ee8ee4c3f623a9cd792070ba4abbd59595e3a124ca51ec7fdd9ae78bf9",
       "submitted_sha256": "ff4ea0ee8ee4c3f623a9cd792070ba4abbd59595e3a124ca51ec7fdd9ae78bf9",
       "change": "none"
+    },
+    {
+      "file": "runtime/desktop_gui/__init__.py",
+      "submitted_sha256": "f18d5d005426dc44a9bff7bae42ce139011fde30bdbcb0fb8aad1005f0d8ed19",
+      "original_sha256": null,
+      "change": "Consolidated current GUI from qualified v3 with the shared active functions in v1/v2; obsolete entry points removed"
+    },
+    {
+      "file": "runtime/desktop_gui/backend.py",
+      "submitted_sha256": "3ea19bca6a214fc805c1b88651d476a6d9b4b63f61e5649310a765bcac323512",
+      "original_sha256": null,
+      "change": "Consolidated current GUI from qualified v3 with the shared active functions in v1/v2; obsolete entry points removed"
+    },
+    {
+      "file": "runtime/desktop_gui/dataio.py",
+      "submitted_sha256": "11b774664077414564413b0cc3f9f70ac559c0f8d7da3992ddcd2ed2dcf475ad",
+      "original_sha256": null,
+      "change": "Consolidated current GUI from qualified v3 with the shared active functions in v1/v2; obsolete entry points removed"
+    },
+    {
+      "file": "runtime/desktop_gui/history_store.py",
+      "submitted_sha256": "910ef1810c603173572335e462e3dbb3a88694be0d3f52b30234612865f75ed1",
+      "original_sha256": null,
+      "change": "Consolidated current GUI from qualified v3 with the shared active functions in v1/v2; obsolete entry points removed"
+    },
+    {
+      "file": "runtime/desktop_gui/library.py",
+      "submitted_sha256": "78341ee9d645cd260cad5ae1caabef62f5f4c4d26b1672d948fb39a94ba31b61",
+      "original_sha256": null,
+      "change": "Consolidated current GUI from qualified v3 with the shared active functions in v1/v2; obsolete entry points removed"
+    },
+    {
+      "file": "runtime/desktop_gui/main.py",
+      "submitted_sha256": "930894a85aaebce0fe8c32806466d2bdc018bbd7cd5c00c065bce867681a5a64",
+      "original_sha256": null,
+      "change": "Consolidated current GUI from qualified v3 with the shared active functions in v1/v2; obsolete entry points removed"
+    },
+    {
+      "file": "runtime/desktop_gui/poweroff_board.py",
+      "submitted_sha256": "eb4fe82ff6193061b94ce7ceaa54a50ce76fdf38d83d3e00358a4185b5b426cc",
+      "original_sha256": null,
+      "change": "Consolidated current GUI from qualified v3 with the shared active functions in v1/v2; obsolete entry points removed"
+    },
+    {
+      "file": "runtime/desktop_gui/runtime.json",
+      "submitted_sha256": "d1922a32cca1a39ad8f470d9ecbf5c236372b60fe8609da0c26e3835f907b2bf",
+      "original_sha256": null,
+      "change": "Consolidated current GUI from qualified v3 with the shared active functions in v1/v2; obsolete entry points removed"
     }
   ],
   "scope": "Only listed source transformations; prior production files untouched."

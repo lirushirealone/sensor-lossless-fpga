@@ -5,15 +5,14 @@ from pathlib import Path
 
 def configure(root):
     root=Path(root).resolve();runtime=root/'runtime'
-    from desktop_gui_v3 import main,history_store,backend
-    from desktop_gui_v1 import backend as original_backend
-    from desktop_gui_v2 import backend as power_backend
-    history=root/'results/user_history';work=root/'results/work';examples=root/'data/examples'
+    from desktop_gui import main,history_store,backend
+    storage=Path(os.environ['SENSOR_WORKBENCH_HOME']).resolve() if os.environ.get('SENSOR_WORKBENCH_HOME') else root/'results'
+    history=storage/'历史结果汇总';work=storage/'工作缓存';examples=storage/'导入数据' if os.environ.get('SENSOR_WORKBENCH_HOME') else root/'data/examples'
+    examples.mkdir(parents=True,exist_ok=True)
     history.mkdir(parents=True,exist_ok=True)
     main.HISTORY_ROOT=history;main.DEMO=examples
     history_store.HISTORY_ROOT=history;history_store.STAGING_ROOT=work;history_store.ROOT=history
     history_store.publish.__defaults__=(history,False);history_store.decode_to_result.__defaults__=(history,)
-    backend.STAGING_ROOT=work
     definition=json.loads((root/'board/runtime_manifest.json').read_bytes())
     # Match the qualified backend's exact bytes across Windows/Linux newlines.
     manifest=(json.dumps(definition,indent=2)+'\n').encode('utf-8')

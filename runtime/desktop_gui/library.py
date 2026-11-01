@@ -1,7 +1,7 @@
 """Read known demo provenance only after exact-file hash verification."""
 import json
 from pathlib import Path
-from desktop_gui_v1.dataio import digest
+from .dataio import digest
 ROOT=Path(__file__).resolve().parents[1];DEMO=ROOT/'演示数据'
 SAMPLES={name:DEMO/(name+'（示例文件）.npz') for name in ('power01','appliances_energy','bidmc01')}
 def provenance(path):

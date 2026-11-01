@@ -22,7 +22,7 @@ def normalize(channels):
 
 def load(path):
     p=Path(path)
-    if p.stat().st_size>64*1024*1024:raise ValueError('本版导入文件上限64MiB。')
+    if p.stat().st_size>64*1024*1024:raise ValueError('本版导入文件上限67.11 MB。')
     if p.suffix.lower()=='.npz':
         with zipfile.ZipFile(p) as z:
             entries=z.infolist();names=[x.filename for x in entries]
@@ -50,12 +50,6 @@ def load(path):
         channels={ch:np.array(v,dtype='<i2') for ch,v in zip(columns,data)}
     else:raise ValueError('请选择CSV或NPZ数据文件。')
     return normalize(channels)
-
-def example(name):
-    from lz77_source import load_case_arrays
-    manifest=json.loads((ROOT/'results/hybrid-board-v1/benchmark-manifest.json').read_text())
-    case=next(c for c in manifest['cases'] if c['record']==name)
-    return normalize(load_case_arrays(case)),dict(record=name,domain=case['domain'],source=case['source_item'],kind='公开真实数据回放')
 
 def save_npz(path,channels):
     with Path(path).open('xb') as f:np.savez(f,**{f'ch{c}':v for c,v in sorted(channels.items())})
