@@ -1,7 +1,7 @@
 {
   "schema": "source-release-checks-v2",
   "date": "2026-11-01",
-  "source_version": "source-v3",
+  "source_version": "source-v4",
   "formal_version": "unified-v1",
   "software_tests": {
     "passed": 21,
@@ -111,5 +111,16 @@
     "new_board_run": false,
     "new_vivado_run": false,
     "algorithm_and_installer_unchanged": true
+  },
+  "submission_package_revision": {
+    "date": "2026-11-02",
+    "engineering_skill_and_design_report_bundled": true,
+    "all_paths_lowercase": true,
+    "formal_report": "report/design_report.pdf",
+    "editable_report": "report/design_report.docx",
+    "expected_files": 185,
+    "compression_algorithm_changed": false,
+    "new_board_run": false,
+    "new_vivado_run": false
   }
 }

@@ -379,16 +379,22 @@
       "change": "none"
     },
     {
-      "file": "runtime/third_party/zlib-1.2.11/README",
+      "file": "runtime/third_party/zlib-1.2.11/readme",
       "original_sha256": "7960b6b1cc63e619abb77acaea5427159605afee8c8b362664f4effc7d7f7d15",
       "submitted_sha256": "7960b6b1cc63e619abb77acaea5427159605afee8c8b362664f4effc7d7f7d15",
-      "change": "none"
+      "change": "none",
+      "packaging_path_change": {
+        "from_path": "runtime/third_party/zlib-1.2.11/README",
+        "to_path": "runtime/third_party/zlib-1.2.11/readme",
+        "reason": "ASCII lowercase submission paths"
+      }
     },
     {
       "file": "runtime/third_party/zlib-1.2.11/source-manifest.json",
       "original_sha256": "e83a5df7ff1ad03275f584ba4ba9bfa68f79420438334e5f1b6241859525fe83",
-      "submitted_sha256": "e83a5df7ff1ad03275f584ba4ba9bfa68f79420438334e5f1b6241859525fe83",
-      "change": "none"
+      "submitted_sha256": "95cf1bd2c1b1015f4832b2fdafe6cfc34af53049c72d0463ee5a10d02a563dc5",
+      "change": "Only the manifest key README is renamed readme; original upstream URL and README bytes are preserved.",
+      "previous_submitted_sha256": "e83a5df7ff1ad03275f584ba4ba9bfa68f79420438334e5f1b6241859525fe83"
     },
     {
       "file": "runtime/third_party/zlib-1.2.11/trees.c",

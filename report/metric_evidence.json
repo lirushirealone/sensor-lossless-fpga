@@ -1,0 +1,405 @@
+{
+  "schema": "contest-technical-report-evidence-v4",
+  "report_date": "2026-11-02",
+  "measurement_date": "2026-10-21",
+  "source_release_board_test_date": "2026-10-31",
+  "regression": [
+    {
+      "domain": "POWER",
+      "title": "家庭电力",
+      "files": 5,
+      "raw_bytes": 345600,
+      "output_bytes": 155235,
+      "legacy_bytes": 160047,
+      "large_only_bytes": 172677,
+      "jobs": 40,
+      "native_frames": 180,
+      "old_saving_pct": 53.690104166666664,
+      "saving_pct": 55.08246527777778
+    },
+    {
+      "domain": "APPLIANCES",
+      "title": "家电能耗",
+      "files": 1,
+      "raw_bytes": 78940,
+      "output_bytes": 16126,
+      "legacy_bytes": 19668,
+      "large_only_bytes": 16062,
+      "jobs": 6,
+      "native_frames": 40,
+      "old_saving_pct": 75.08487458829491,
+      "saving_pct": 79.57182670382569
+    },
+    {
+      "domain": "BIDMC",
+      "title": "BIDMC波形",
+      "files": 49,
+      "raw_bytes": 23520392,
+      "output_bytes": 9100719,
+      "legacy_bytes": 11359499,
+      "large_only_bytes": 9110044,
+      "jobs": 1568,
+      "native_frames": 11564,
+      "old_saving_pct": 51.703615313894424,
+      "saving_pct": 61.307111718206066
+    }
+  ],
+  "external_validation": {
+    "mitdb": {
+      "files": 3,
+      "int16_bytes": 7800000,
+      "wfdb_bytes": 5850000,
+      "output_bytes": 2047366,
+      "samples": 3900000,
+      "jobs": 480,
+      "frames": 3810,
+      "saving_vs_int16_pct": 73.75171794871795,
+      "saving_vs_source_wfdb_pct": 65.00229059829059
+    },
+    "ecgiddb": {
+      "files": 6,
+      "int16_bytes": 240000,
+      "wfdb_bytes": 240000,
+      "output_bytes": 62718,
+      "samples": 120000,
+      "jobs": 24,
+      "frames": 120,
+      "saving_vs_int16_pct": 73.86749999999999,
+      "saving_vs_source_wfdb_pct": 73.86749999999999
+    }
+  },
+  "external_record_ids": [
+    "mitdb-100",
+    "mitdb-101",
+    "mitdb-102",
+    "ecgiddb-Person_01-rec_1",
+    "ecgiddb-Person_02-rec_1",
+    "ecgiddb-Person_03-rec_1",
+    "ecgiddb-Person_04-rec_1",
+    "ecgiddb-Person_05-rec_1",
+    "ecgiddb-Person_06-rec_1"
+  ],
+  "paired_timing": [
+    {
+      "domain": "POWER",
+      "record": "power01",
+      "raw_bytes": 69120,
+      "times_ns": {
+        "legacy": 70776468,
+        "group1": 121412738,
+        "group2": 104778523
+      },
+      "input_MB_s": 0.6596771744911885,
+      "group2_vs_group1_pct": 13.700551749355983,
+      "group2_time_increase_vs_old_pct": 48.0414690939367
+    },
+    {
+      "domain": "APPLIANCES",
+      "record": "appliances_energy",
+      "raw_bytes": 78940,
+      "times_ns": {
+        "legacy": 72812013,
+        "group1": 106314769,
+        "group2": 93655821
+      },
+      "input_MB_s": 0.842873397052384,
+      "group2_vs_group1_pct": 11.90704557708252,
+      "group2_time_increase_vs_old_pct": 28.626880567084445
+    },
+    {
+      "domain": "BIDMC",
+      "record": "bidmc01",
+      "raw_bytes": 480008,
+      "times_ns": {
+        "legacy": 464423027,
+        "group1": 634809580,
+        "group2": 607187753
+      },
+      "input_MB_s": 0.7905429541824108,
+      "group2_vs_group1_pct": 4.351198827213665,
+      "group2_time_increase_vs_old_pct": 30.74023416155891
+    }
+  ],
+  "hardware": {
+    "part": "xc7z020clg400-1",
+    "clocks_mhz": [
+      66.666672,
+      50.0
+    ],
+    "lut": 20669.0,
+    "ff": 24515.0,
+    "bram36_equivalent": 49.0,
+    "dsp": 0.0,
+    "setup_slack_ns": 0.247,
+    "hold_slack_ns": 0.023
+  },
+  "endurance": {
+    "elapsed_seconds": 1806.01584009,
+    "files": 2280,
+    "samples": 622714056,
+    "jobs": 79040,
+    "cycles": 152,
+    "raw_bytes": 1245428112,
+    "output_bytes": 328990928,
+    "rss_delta_kib": 1296,
+    "system_cma_free_loss_kib": 2652,
+    "actual_mapped_bytes": 524288,
+    "original_system_cma_guard_pass": false,
+    "mapping_release_pass": true
+  },
+  "source_files": {
+    "results/unified-v1/verification.json": "ee8b73725efb82858349f7699281792d0d5fc1543c1112c8ad9d0354a7605cdf",
+    "results/unified-v1/board/paired.json": "5abb9c7b774556d623d0943252a3f0d7c985680b2bf65a9c20af9d14881d73b1",
+    "results/unified-validation-v1/protocol.json": "23cd90acb95827b4719b5e9dd3068b1965bb56b5a01f3d0d82dac4e384bab92a",
+    "results/unified-validation-v1/acceptance-verification.json": "cbfb029c7c3ff4550d0a50d9d9cfb92ea476726b99794ea9a7a06bced3739e9a",
+    "results/unified-validation-v1/board/endurance.json": "143e94b949d42a2311b57061d61ffeaafafb2643f2f62448ef9dee983814a932",
+    "results/unified-validation-v1/verification.json": "8d2c26d1c25af96bd0c44c7bf4a54ce4405fe480c34320f8acb8de2bcf09c39b",
+    "results/contest-release-v1/qualification.json": "5201a2e6e27721256b4814b4af4a1f9fa04c6e33f31f609a07630cbd52e87b37"
+  },
+  "photo_slots_complete": true,
+  "photos": {
+    "board_front.jpg": {
+      "view": "front",
+      "sha256": "e563706b72c9e91f612c3c618c411ef260dc838d0cc73406b7d0dc0583e1ea0c"
+    },
+    "board_45.jpg": {
+      "view": "45_degree",
+      "sha256": "c3d47e7d472a66f91c4b68c6078f307c4e274766329352eb21f5b5aa1dddc776"
+    }
+  },
+  "algorithm_comparisons": {
+    "schema": "archived-algorithm-comparisons-v1",
+    "same_input_comparison": [
+      {
+        "method": "原生预测编码",
+        "points": "1024",
+        "software_reference": true,
+        "file_header_bytes": 0,
+        "values": {
+          "POWER": {
+            "raw_bytes": 345600,
+            "output_bytes": 169524,
+            "saving_pct": 50.94791666666667
+          },
+          "APPLIANCES": {
+            "raw_bytes": 78940,
+            "output_bytes": 25539,
+            "saving_pct": 67.64758044084114
+          },
+          "BIDMC": {
+            "raw_bytes": 23520392,
+            "output_bytes": 15132483,
+            "saving_pct": 35.66228402996005
+          }
+        }
+      },
+      {
+        "method": "差分DEFLATE6",
+        "points": "1024",
+        "software_reference": true,
+        "file_header_bytes": 0,
+        "values": {
+          "POWER": {
+            "raw_bytes": 345600,
+            "output_bytes": 189297,
+            "saving_pct": 45.2265625
+          },
+          "APPLIANCES": {
+            "raw_bytes": 78940,
+            "output_bytes": 19677,
+            "saving_pct": 75.07347352419559
+          },
+          "BIDMC": {
+            "raw_bytes": 23520392,
+            "output_bytes": 11478157,
+            "saving_pct": 51.199125422739556
+          }
+        }
+      },
+      {
+        "method": "两者逐块择优",
+        "points": "1024",
+        "software_reference": true,
+        "file_header_bytes": 0,
+        "values": {
+          "POWER": {
+            "raw_bytes": 345600,
+            "output_bytes": 160047,
+            "saving_pct": 53.690104166666664
+          },
+          "APPLIANCES": {
+            "raw_bytes": 78940,
+            "output_bytes": 19668,
+            "saving_pct": 75.08487458829491
+          },
+          "BIDMC": {
+            "raw_bytes": 23520392,
+            "output_bytes": 11359499,
+            "saving_pct": 51.703615313894424
+          }
+        }
+      },
+      {
+        "method": "当前统一正式版",
+        "points": "1024 / 8192",
+        "software_reference": false,
+        "file_header_bytes": 64,
+        "values": {
+          "POWER": {
+            "raw_bytes": 345600,
+            "output_bytes": 155235,
+            "saving_pct": 55.08246527777778
+          },
+          "APPLIANCES": {
+            "raw_bytes": 78940,
+            "output_bytes": 16126,
+            "saving_pct": 79.57182670382569
+          },
+          "BIDMC": {
+            "raw_bytes": 23520392,
+            "output_bytes": 9100719,
+            "saving_pct": 61.307111718206066
+          }
+        }
+      }
+    ],
+    "entropy_strategy_probe": [
+      {
+        "method": "完整zlib6加原生",
+        "points": 8192,
+        "software_only": true,
+        "values": {
+          "POWER": {
+            "raw_bytes": 345600,
+            "output_bytes": 154365,
+            "saving_pct": 55.33420138888889
+          },
+          "APPLIANCES": {
+            "raw_bytes": 78940,
+            "output_bytes": 16062,
+            "saving_pct": 79.65290093742082
+          },
+          "BIDMC": {
+            "raw_bytes": 23520392,
+            "output_bytes": 9091283,
+            "saving_pct": 61.34723009718546
+          }
+        }
+      },
+      {
+        "method": "固定Huffman代理加原生",
+        "points": 8192,
+        "software_only": true,
+        "values": {
+          "POWER": {
+            "raw_bytes": 345600,
+            "output_bytes": 158966,
+            "saving_pct": 54.002893518518526
+          },
+          "APPLIANCES": {
+            "raw_bytes": 78940,
+            "output_bytes": 18946,
+            "saving_pct": 75.99949328604004
+          },
+          "BIDMC": {
+            "raw_bytes": 23520392,
+            "output_bytes": 10620866,
+            "saving_pct": 54.844009402564375
+          }
+        }
+      },
+      {
+        "method": "无LZ匹配代理加原生",
+        "points": 8192,
+        "software_only": true,
+        "values": {
+          "POWER": {
+            "raw_bytes": 345600,
+            "output_bytes": 158600,
+            "saving_pct": 54.108796296296305
+          },
+          "APPLIANCES": {
+            "raw_bytes": 78940,
+            "output_bytes": 21317,
+            "saving_pct": 72.99594628832024
+          },
+          "BIDMC": {
+            "raw_bytes": 23520392,
+            "output_bytes": 13055742,
+            "saving_pct": 44.49181799350963
+          }
+        }
+      }
+    ],
+    "predictor_screen": {
+      "date": "2026-10-12",
+      "points": 256,
+      "files": 49,
+      "raw_bytes": 23520392,
+      "software_only": true,
+      "profiles": {
+        "baseline": {
+          "output_bytes": 16000267,
+          "saving_pct": 31.97278769843632,
+          "gain_pp": 0.0
+        },
+        "iap": {
+          "output_bytes": 15995012,
+          "saving_pct": 31.99513001313924,
+          "gain_pp": 0.022342314702918215
+        },
+        "cross": {
+          "output_bytes": 15992470,
+          "saving_pct": 32.0059376561411,
+          "gain_pp": 0.033149957704786556
+        },
+        "combined": {
+          "output_bytes": 15987228,
+          "saving_pct": 32.02822469965637,
+          "gain_pp": 0.055437001220047695
+        }
+      }
+    },
+    "flac_screen": {
+      "date": "2026-10-13",
+      "points": 1024,
+      "files": 54,
+      "software_only": true,
+      "values": {
+        "BIDMC": {
+          "raw_bytes": 23520392,
+          "output_bytes": 11300119,
+          "saving_pct": 51.956077092592665,
+          "gain_pp": 0.2524617786982462,
+          "saved_bytes": 59380
+        },
+        "POWER": {
+          "raw_bytes": 345600,
+          "output_bytes": 158857,
+          "saving_pct": 54.034432870370374,
+          "gain_pp": 0.3443287037037037,
+          "saved_bytes": 1190
+        }
+      }
+    },
+    "source_files": {
+      "results/larger-block-v1/summary.json": "32b23bab6ba2c4a0e46184ed105f7d5d9fae7301e6e4078eaafec448cf059636",
+      "results/fpga-offload-v1/summary.json": "bdcd42d42ff0557a0c87b1e8006f5a0cc0d28d05387681639afb13b28f9bf631",
+      "results/predictor-comparison-20261012/summary.json": "a77d2ae6827bed13cf3cc98550feddf97d3c143f56bd65002f3c7cf63c76dd86",
+      "results/flac-style-20261013/combined/summary.json": "92b58829303b5e9bae46cd304fcc1c77c6b8dfe4995d8bcf15a7e4770575a989"
+    },
+    "scope": "Historical software screens and current board validation are labeled separately; no same-token Huffman ablation or same-clock algorithm speed claim."
+  },
+  "implementation_source_commit": "d7a0b4c833b09b8e1319a80573610714947d2fcb",
+  "implementation_source_version": "source-v3",
+  "submission_package": {
+    "version": "source-v4",
+    "files": 185,
+    "engineering_skill_and_design_report": true,
+    "paths": "ascii_lowercase",
+    "repository": "https://github.com/lirushirealone/sensor-lossless-fpga",
+    "final_commit_recorded_in_external_delivery_receipt": true
+  },
+  "new_board_run": false,
+  "new_vivado_run": false
+}

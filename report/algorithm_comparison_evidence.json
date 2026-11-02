@@ -1,0 +1,223 @@
+{
+  "schema": "archived-algorithm-comparisons-v1",
+  "same_input_comparison": [
+    {
+      "method": "原生预测编码",
+      "points": "1024",
+      "software_reference": true,
+      "file_header_bytes": 0,
+      "values": {
+        "POWER": {
+          "raw_bytes": 345600,
+          "output_bytes": 169524,
+          "saving_pct": 50.94791666666667
+        },
+        "APPLIANCES": {
+          "raw_bytes": 78940,
+          "output_bytes": 25539,
+          "saving_pct": 67.64758044084114
+        },
+        "BIDMC": {
+          "raw_bytes": 23520392,
+          "output_bytes": 15132483,
+          "saving_pct": 35.66228402996005
+        }
+      }
+    },
+    {
+      "method": "差分DEFLATE6",
+      "points": "1024",
+      "software_reference": true,
+      "file_header_bytes": 0,
+      "values": {
+        "POWER": {
+          "raw_bytes": 345600,
+          "output_bytes": 189297,
+          "saving_pct": 45.2265625
+        },
+        "APPLIANCES": {
+          "raw_bytes": 78940,
+          "output_bytes": 19677,
+          "saving_pct": 75.07347352419559
+        },
+        "BIDMC": {
+          "raw_bytes": 23520392,
+          "output_bytes": 11478157,
+          "saving_pct": 51.199125422739556
+        }
+      }
+    },
+    {
+      "method": "两者逐块择优",
+      "points": "1024",
+      "software_reference": true,
+      "file_header_bytes": 0,
+      "values": {
+        "POWER": {
+          "raw_bytes": 345600,
+          "output_bytes": 160047,
+          "saving_pct": 53.690104166666664
+        },
+        "APPLIANCES": {
+          "raw_bytes": 78940,
+          "output_bytes": 19668,
+          "saving_pct": 75.08487458829491
+        },
+        "BIDMC": {
+          "raw_bytes": 23520392,
+          "output_bytes": 11359499,
+          "saving_pct": 51.703615313894424
+        }
+      }
+    },
+    {
+      "method": "当前统一正式版",
+      "points": "1024 / 8192",
+      "software_reference": false,
+      "file_header_bytes": 64,
+      "values": {
+        "POWER": {
+          "raw_bytes": 345600,
+          "output_bytes": 155235,
+          "saving_pct": 55.08246527777778
+        },
+        "APPLIANCES": {
+          "raw_bytes": 78940,
+          "output_bytes": 16126,
+          "saving_pct": 79.57182670382569
+        },
+        "BIDMC": {
+          "raw_bytes": 23520392,
+          "output_bytes": 9100719,
+          "saving_pct": 61.307111718206066
+        }
+      }
+    }
+  ],
+  "entropy_strategy_probe": [
+    {
+      "method": "完整zlib6加原生",
+      "points": 8192,
+      "software_only": true,
+      "values": {
+        "POWER": {
+          "raw_bytes": 345600,
+          "output_bytes": 154365,
+          "saving_pct": 55.33420138888889
+        },
+        "APPLIANCES": {
+          "raw_bytes": 78940,
+          "output_bytes": 16062,
+          "saving_pct": 79.65290093742082
+        },
+        "BIDMC": {
+          "raw_bytes": 23520392,
+          "output_bytes": 9091283,
+          "saving_pct": 61.34723009718546
+        }
+      }
+    },
+    {
+      "method": "固定Huffman代理加原生",
+      "points": 8192,
+      "software_only": true,
+      "values": {
+        "POWER": {
+          "raw_bytes": 345600,
+          "output_bytes": 158966,
+          "saving_pct": 54.002893518518526
+        },
+        "APPLIANCES": {
+          "raw_bytes": 78940,
+          "output_bytes": 18946,
+          "saving_pct": 75.99949328604004
+        },
+        "BIDMC": {
+          "raw_bytes": 23520392,
+          "output_bytes": 10620866,
+          "saving_pct": 54.844009402564375
+        }
+      }
+    },
+    {
+      "method": "无LZ匹配代理加原生",
+      "points": 8192,
+      "software_only": true,
+      "values": {
+        "POWER": {
+          "raw_bytes": 345600,
+          "output_bytes": 158600,
+          "saving_pct": 54.108796296296305
+        },
+        "APPLIANCES": {
+          "raw_bytes": 78940,
+          "output_bytes": 21317,
+          "saving_pct": 72.99594628832024
+        },
+        "BIDMC": {
+          "raw_bytes": 23520392,
+          "output_bytes": 13055742,
+          "saving_pct": 44.49181799350963
+        }
+      }
+    }
+  ],
+  "predictor_screen": {
+    "date": "2026-10-12",
+    "points": 256,
+    "files": 49,
+    "raw_bytes": 23520392,
+    "software_only": true,
+    "profiles": {
+      "baseline": {
+        "output_bytes": 16000267,
+        "saving_pct": 31.97278769843632,
+        "gain_pp": 0.0
+      },
+      "iap": {
+        "output_bytes": 15995012,
+        "saving_pct": 31.99513001313924,
+        "gain_pp": 0.022342314702918215
+      },
+      "cross": {
+        "output_bytes": 15992470,
+        "saving_pct": 32.0059376561411,
+        "gain_pp": 0.033149957704786556
+      },
+      "combined": {
+        "output_bytes": 15987228,
+        "saving_pct": 32.02822469965637,
+        "gain_pp": 0.055437001220047695
+      }
+    }
+  },
+  "flac_screen": {
+    "date": "2026-10-13",
+    "points": 1024,
+    "files": 54,
+    "software_only": true,
+    "values": {
+      "BIDMC": {
+        "raw_bytes": 23520392,
+        "output_bytes": 11300119,
+        "saving_pct": 51.956077092592665,
+        "gain_pp": 0.2524617786982462,
+        "saved_bytes": 59380
+      },
+      "POWER": {
+        "raw_bytes": 345600,
+        "output_bytes": 158857,
+        "saving_pct": 54.034432870370374,
+        "gain_pp": 0.3443287037037037,
+        "saved_bytes": 1190
+      }
+    }
+  },
+  "source_files": {
+    "results/larger-block-v1/summary.json": "32b23bab6ba2c4a0e46184ed105f7d5d9fae7301e6e4078eaafec448cf059636",
+    "results/fpga-offload-v1/summary.json": "bdcd42d42ff0557a0c87b1e8006f5a0cc0d28d05387681639afb13b28f9bf631",
+    "results/predictor-comparison-20261012/summary.json": "a77d2ae6827bed13cf3cc98550feddf97d3c143f56bd65002f3c7cf63c76dd86",
+    "results/flac-style-20261013/combined/summary.json": "92b58829303b5e9bae46cd304fcc1c77c6b8dfe4995d8bcf15a7e4770575a989"
+  },
+  "scope": "Historical software screens and current board validation are labeled separately; no same-token Huffman ablation or same-clock algorithm speed claim."
+}

@@ -18,7 +18,7 @@ def main():
     manifest=json.loads((ROOT/'manifest.json').read_text());names={p.relative_to(ROOT).as_posix():p for p in files() if p.name!='manifest.json'}
     if set(names)!=set(manifest['files']):raise ValueError('Missing or extra source files: '+str(set(names)^set(manifest['files'])))
     for name,path in names.items():
-        if any(not re.fullmatch(r'[A-Za-z0-9_.-]+',part) for part in Path(name).parts):raise ValueError('Nonportable filename: '+name)
+        if any(not re.fullmatch(r'[a-z0-9_.-]+',part) for part in Path(name).parts):raise ValueError('Nonportable filename: '+name)
         if dataio.digest(path)!=manifest['files'][name]:raise ValueError('Changed file: '+name)
         if path.suffix.lower() in ('.py','.json','.md','.txt','.tcl','.sv','.yml','.yaml','.c','.h','.ps1','.cmd'):
             text=path.read_text(encoding='utf-8-sig',errors='replace')
